@@ -65,7 +65,7 @@ jobs:
           path: .
 
       - name: Unit test
-        run: dotnet test --no-build --configuration ${{ matrix.configuration }} --logger trx
+        run: dotnet test ProjectManagement.slnx --no-build --configuration ${{ matrix.configuration }} --logger trx
         
       - name: Debug - verify test results
         if: always()
