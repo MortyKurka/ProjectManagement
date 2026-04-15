@@ -60,7 +60,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: Build-${{ matrix.os }}-${{ matrix.dotnet-version }}-${{ matrix.configuration }}
-          path: src/**/bin/${{ matrix.configuration }}/**/*
+          path: .
 
       - name: Unit test
         run: dotnet test --no-build --configuration ${{ matrix.configuration }} --logger trx
