@@ -70,4 +70,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: TestResults-${{ matrix.os }}-${{ matrix.dotnet-version }}-${{ matrix.configuration }}
-          path: tests/TestResults/
+          path: tests/**/TestResults/
