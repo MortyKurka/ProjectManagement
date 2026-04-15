@@ -1,0 +1,194 @@
+name: Diagnostic - Test Artifacts
+
+on:
+  workflow_dispatch:
+    inputs:
+      os:
+        description: 'Operating System'
+        required: true
+        default: 'ubuntu-latest'
+        type: choice
+        options:
+          - ubuntu-latest
+          - windows-latest
+      dotnet-version:
+        description: '.NET Version'
+        required: true
+        default: '10.0.x'
+        type: choice
+        options:
+          - '8.0.x'
+          - '10.0.x'
+      configuration:
+        description: 'Configuration'
+        required: true
+        default: 'Debug'
+        type: choice
+        options:
+          - Debug
+          - Release
+
+jobs:
+  diagnostic:
+    name: Diagnostic on ${{ github.event.inputs.os }}
+    runs-on: ${{ github.event.inputs.os }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: ${{ github.event.inputs.dotnet-version }}
+
+      # Шаг 1: Показать структуру репозитория
+      - name: 1. Repository structure
+        run: |
+          echo "=== Repository structure ==="
+          ls -la
+          echo ""
+          echo "=== src folder ==="
+          ls -la src/ || echo "src not found"
+          echo ""
+          echo "=== tests folder ==="
+          ls -la tests/ || echo "tests not found"
+          echo ""
+          echo "=== Solution files ==="
+          find . -name "*.sln" -o -name "*.slnx" 2>/dev/null || echo "No solution files"
+        shell: bash
+
+      # Шаг 2: Восстановить и собрать
+      - name: 2. Restore
+        run: dotnet restore
+
+      - name: 3. Build
+        run: dotnet build --no-restore --configuration ${{ github.event.inputs.configuration }}
+
+      # Шаг 3: Показать результаты сборки
+      - name: 4. Build output structure
+        run: |
+          echo "=== Build output ==="
+          echo "src bin folders:"
+          find src -path "*/bin/${{ github.event.inputs.configuration }}/*" -type f 2>/dev/null | head -20
+          echo ""
+          echo "tests bin folders:"
+          find tests -path "*/bin/${{ github.event.inputs.configuration }}/*" -type f 2>/dev/null | head -20
+          echo ""
+          echo "=== Test DLLs ==="
+          find tests -name "*.Tests.dll" -type f 2>/dev/null
+        shell: bash
+
+      # Шаг 4: Запустить тесты разными способами
+      - name: 5. Try test discovery
+        run: |
+          echo "=== Test 1: dotnet test without args ==="
+          dotnet test --no-build --configuration ${{ github.event.inputs.configuration }} --list-tests 2>&1 || echo "Failed"
+          echo ""
+          
+          echo "=== Test 2: Find test projects ==="
+          TEST_PROJECTS=$(find tests -name "*.Tests.csproj" -type f)
+          if [ -n "$TEST_PROJECTS" ]; then
+            echo "Found test projects:"
+            echo "$TEST_PROJECTS"
+            echo ""
+            for proj in $TEST_PROJECTS; do
+              echo "=== Testing: $proj ==="
+              dotnet test "$proj" --no-build --configuration ${{ github.event.inputs.configuration }} --list-tests
+            done
+          else
+            echo "No test projects found with *.Tests.csproj pattern"
+          fi
+          echo ""
+          
+          echo "=== Test 3: Look for solution files ==="
+          SOLUTION=$(find . -maxdepth 1 -name "*.sln*" -type f | head -1)
+          if [ -n "$SOLUTION" ]; then
+            echo "Found solution: $SOLUTION"
+            dotnet test "$SOLUTION" --no-build --configuration ${{ github.event.inputs.configuration }} --list-tests
+          else
+            echo "No solution file found in root"
+          fi
+        shell: bash
+
+      # Шаг 5: Запустить тесты с созданием результатов
+      - name: 6. Run tests with logger
+        run: |
+          # Создаём папку для результатов
+          mkdir -p TestResults
+          
+          # Находим и запускаем тестовые проекты
+          TEST_PROJECTS=$(find tests -name "*.Tests.csproj" -type f)
+          if [ -n "$TEST_PROJECTS" ]; then
+            for proj in $TEST_PROJECTS; do
+              echo "Running tests in: $proj"
+              dotnet test "$proj" \
+                --no-build \
+                --configuration ${{ github.event.inputs.configuration }} \
+                --logger "trx;LogFileName=$(basename $proj .csproj).trx" \
+                --results-directory ./TestResults
+            done
+          else
+            echo "No test projects found to run"
+          fi
+        shell: bash
+
+      # Шаг 6: Проверить результаты
+      - name: 7. Check test results
+        if: always()
+        run: |
+          echo "=== TestResults folder ==="
+          ls -la TestResults/ 2>/dev/null || echo "No TestResults folder"
+          echo ""
+          echo "=== Any trx files anywhere? ==="
+          find . -name "*.trx" -type f 2>/dev/null || echo "No trx files found"
+          echo ""
+          echo "=== TestResults content ==="
+          if [ -d "TestResults" ]; then
+            cat TestResults/*.trx 2>/dev/null | head -50 || echo "No readable content"
+          fi
+        shell: bash
+
+      # Шаг 7: Загрузить всё что нашли
+      - name: 8. Upload diagnostic artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: diagnostic-${{ github.event.inputs.os }}-${{ github.event.inputs.dotnet-version }}
+          path: |
+            TestResults/
+            **/*.trx
+            **/*.Tests.csproj
+            *.sln
+            *.slnx
+          if-no-files-found: warn
+
+      # Шаг 8: Итоговый статус
+      - name: 9. Summary
+        if: always()
+        run: |
+          echo "## Diagnostic Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Check | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|-------|--------|" >> $GITHUB_STEP_SUMMARY
+          
+          # Проверяем наличие тестовых проектов
+          if [ -n "$(find tests -name '*.Tests.csproj' -type f 2>/dev/null)" ]; then
+            echo "| Test projects found | ✅ |" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "| Test projects found | ❌ |" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          # Проверяем наличие решения
+          if [ -n "$(find . -maxdepth 1 -name '*.sln*' -type f 2>/dev/null)" ]; then
+            echo "| Solution file found | ✅ |" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "| Solution file found | ❌ |" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          # Проверяем результаты тестов
+          if [ -n "$(find . -name '*.trx' -type f 2>/dev/null)" ]; then
+            echo "| Test results (TRX) | ✅ |" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "| Test results (TRX) | ❌ |" >> $GITHUB_STEP_SUMMARY
+          fi
+        shell: bash
