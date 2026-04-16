@@ -14,27 +14,35 @@ public class Employee
     public int ProjectId { get; private set; }
     public bool IsHired { get; private set; }
 
-    public Employee(Name name, Email email, WorkPass workPass, EmployeeRole role, int projectId)
+    public Employee(int id,Name name, Email email, WorkPass workPass, EmployeeRole role)
     {
-        if (projectId<=0)
-        {
-            throw new ArgumentException("Id проекта должен быть положительным", nameof(projectId));
-        }
+        if (id<=0) throw new ArgumentException("Id не может быть отрицательным или равным нулю",nameof(id));
+        Id = id;
         Name = name;
         Email = email;
         WorkPass = workPass;
         Role = role;
-        ProjectId = projectId;
         IsHired = false;
     }
 
     public void MarkAsHired(int projectId)
     {
-        if (IsHired) throw new BusinessRuleViolationException("");
+        if (IsHired) throw new BusinessRuleViolationException("Работник уже работает");
+        if (projectId <= 0) throw new DomainException("Id проекта должен быть положительным");
+        IsHired = true;
+        ProjectId = projectId;
     }
 
     public void MarkAsFree()
     {
-        if (!IsHired) throw new BusinessRuleViolationException("");
+        if (!IsHired) throw new BusinessRuleViolationException("Работник уже свободен");
+        IsHired = false;
+        ProjectId = 0;
+    }
+
+    public void UpdateEmail(Email email)
+    {
+        if (email==Email) throw new BusinessRuleViolationException("Адрес не изменился");
+        Email = email;
     }
 }
