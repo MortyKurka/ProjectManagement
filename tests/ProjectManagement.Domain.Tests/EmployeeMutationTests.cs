@@ -15,14 +15,4 @@ public class EmployeeMutationTests
         employee.MarkAsHired(projectId);
     }
 
-    [Fact]
-    public void MarkAsFree_ValidData_ChangeCorrectState()
-    {
-        
-    }
-
-    public void MarkAsHired_InvalideProjectId_ThrowsBusinessRuleViolationException(int invalidProjectId)
-    {
-        
-    }
 }
