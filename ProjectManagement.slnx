@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/src/">
+    <Project Path="src/ProjectManagement.Application/ProjectManagement.Application.csproj" />
     <Project Path="src/ProjectManagement.Domain/ProjectManagement.Domain.csproj" />
   </Folder>
   <Folder Name="/tests/">
