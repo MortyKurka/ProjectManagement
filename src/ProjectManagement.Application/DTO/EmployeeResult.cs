@@ -1,3 +1,5 @@
+namespace ProjectManagement.Application.DTO;
+
 public class EmployeeResult
 {
     public bool IsSuccess { get; private set; }
