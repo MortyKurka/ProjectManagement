@@ -36,7 +36,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Build-${{ matrix.os }}-${{ matrix.dotnet-version }}-${{ matrix.configuration }}
-          path: bin/${{ matrix.configuration }}
+          path: |
+            src/**/bin/${{ matrix.configuration }}/**/*
+            tests/**/bin/${{ matrix.configuration }}/**/*
       
   unit-test:
     name: Unit-tests on ${{ matrix.os }} .NET ${{ matrix.dotnet-version }} (${{ matrix.configuration }})
@@ -60,14 +62,24 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: Build-${{ matrix.os }}-${{ matrix.dotnet-version }}-${{ matrix.configuration }}
-          path: bin/${{ matrix.configuration }}
+          path: .
 
       - name: Unit test
-        run: dotnet test --no-build --configuration ${{ matrix.configuration }} --logger trx
+        run: dotnet test ProjectManagement.slnx --no-build --configuration ${{ matrix.configuration }} --logger trx
         
+      - name: Debug - verify test results
+        if: always()
+        run: |
+          echo "Looking for TestResults in tests folder:"
+          find tests -type d -name "TestResults" 2>/dev/null || echo "No TestResults found"
+          echo ""
+          echo "Looking for trx files:"
+          find tests -type f -name "*.trx" 2>/dev/null || echo "No trx files found"
+        shell: bash 
+
       - name: Upload test result
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: TestResults-${{ matrix.os }}-.NET ${{ matrix.dotnet-version }}-${{ matrix.configuration }}
-          path: TestResults/
+          name: TestResults-${{ matrix.os }}-${{ matrix.dotnet-version }}-${{ matrix.configuration }}
+          path: tests/**/TestResults/
