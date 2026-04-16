@@ -14,5 +14,4 @@ public class EmployeeMutationTests
         var employee = new Employee(1,Name.Create("Алексей"),Email.Create("aleksei@mail.ru"),WorkPass.Create("ADC"),EmployeeRole.Developer);
         employee.MarkAsHired(projectId);
     }
-
 }
