@@ -1,3 +1,5 @@
+namespace ProjectManagement.Infrastructure.Entities;
+
 public class EmployeeEntity
 {
     //Первичный ключ
