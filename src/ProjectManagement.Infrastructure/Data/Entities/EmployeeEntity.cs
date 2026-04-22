@@ -1,4 +1,7 @@
-namespace ProjectManagement.Infrastructure.Entities;
+using ProjectManagement.Domain.ValueObjects;
+using ProjectManagement.Domain.Enums;
+
+namespace ProjectManagement.Infrastructure.Data.Entities;
 
 public class EmployeeEntity
 {
@@ -10,9 +13,8 @@ public class EmployeeEntity
     //public ProjectEntity Project { get; set; }
 
     //Простые свойства
-    public string? Name { get; set; }
-    public string? WorkPass { get; set; }
-    public int Role { get; set; }
-    public string? Email { get; set; }
-    
+    public string Name { get; set; } = string.Empty;
+    public string WorkPass { get; set; } = string.Empty;
+    public EmployeeRole Role { get; set; }
+    public string Email { get; set; } = string.Empty;
 }
