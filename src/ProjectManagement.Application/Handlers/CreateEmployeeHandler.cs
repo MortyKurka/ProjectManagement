@@ -23,12 +23,11 @@ public class CreateEmployeeHandler
         WorkPass employeeWorkPass = WorkPass.Create(command.EmployeeWorkPass!);
         EmployeeRole employeeRole = Enum.Parse<EmployeeRole>(command.EmployeeRole!);
 
-        if(await _employeeRepository.ExistsByWorkPass(employeeWorkPass)) return EmployeeResult.Fail("WORKPASS_ALREADY_TAKEN","Данный WorkPass уже занят другим сотрудником");
+        //if(await _employeeRepository.ExistsByWorkPass(employeeWorkPass)) return EmployeeResult.Fail("WORKPASS_ALREADY_TAKEN","Данный WorkPass уже занят другим сотрудником");
 
         var employee = new Employee(command.EmployeeId, employeeName, employeeEmail, employeeWorkPass, employeeRole);
 
         await _employeeRepository.Add(employee);
-        await _employeeRepository.SaveChanges();
 
         return EmployeeResult.Success(employee.Id);
     }
