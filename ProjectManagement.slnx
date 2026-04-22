@@ -2,6 +2,7 @@
   <Folder Name="/src/">
     <Project Path="src/ProjectManagement.Application/ProjectManagement.Application.csproj" />
     <Project Path="src/ProjectManagement.Domain/ProjectManagement.Domain.csproj" />
+    <Project Path="src/ProjectManagement.Infrastructure/ProjectManagement.Infrastructure.csproj" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/ProjectManagement.Domain.Tests/ProjectManagement.Domain.Tests.csproj" />
