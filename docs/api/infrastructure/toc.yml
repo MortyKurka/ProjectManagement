@@ -1,0 +1,42 @@
+### YamlMime:TableOfContent
+items:
+- uid: ProjectManagement.Infrastructure
+  name: ProjectManagement.Infrastructure
+  type: Namespace
+  items:
+  - uid: ProjectManagement.Infrastructure.Data
+    name: Data
+    type: Namespace
+    items:
+    - uid: ProjectManagement.Infrastructure.Data.Configurations
+      name: Configurations
+      type: Namespace
+      items:
+      - uid: ProjectManagement.Infrastructure.Data.Configurations.EmployeeConfiguration
+        name: EmployeeConfiguration
+        type: Class
+    - uid: ProjectManagement.Infrastructure.Data.Entities
+      name: Entities
+      type: Namespace
+      items:
+      - uid: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity
+        name: EmployeeEntity
+        type: Class
+    - uid: ProjectManagement.Infrastructure.Data.ProjectManagementContext
+      name: ProjectManagementContext
+      type: Class
+  - uid: ProjectManagement.Infrastructure.Migrations
+    name: Migrations
+    type: Namespace
+    items:
+    - uid: ProjectManagement.Infrastructure.Migrations.InitialCreate
+      name: InitialCreate
+      type: Class
+  - uid: ProjectManagement.Infrastructure.Repositories
+    name: Repositories
+    type: Namespace
+    items:
+    - uid: ProjectManagement.Infrastructure.Repositories.EmployeeRepository
+      name: EmployeeRepository
+      type: Class
+memberLayout: SamePage

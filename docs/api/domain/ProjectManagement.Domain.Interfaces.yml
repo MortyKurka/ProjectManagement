@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProjectManagement.Domain.Interfaces
+  commentId: N:ProjectManagement.Domain.Interfaces
+  id: Interfaces
+  parent: ProjectManagement.Domain
+  children:
+  - ProjectManagement.Domain.Interfaces.IEmployeeRepository
+  langs:
+  - csharp
+  - vb
+  name: ProjectManagement.Domain.Interfaces
+  nameWithType: ProjectManagement.Domain.Interfaces
+  fullName: ProjectManagement.Domain.Interfaces
+  type: Namespace
+  assemblies:
+  - ProjectManagement.Domain
+references:
+- uid: ProjectManagement.Domain.Interfaces.IEmployeeRepository
+  commentId: T:ProjectManagement.Domain.Interfaces.IEmployeeRepository
+  href: ProjectManagement.Domain.Interfaces.IEmployeeRepository.html
+  name: IEmployeeRepository
+  nameWithType: IEmployeeRepository
+  fullName: ProjectManagement.Domain.Interfaces.IEmployeeRepository

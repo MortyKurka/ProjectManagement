@@ -1,0 +1,28 @@
+### YamlMime:TableOfContent
+items:
+- uid: ProjectManagement.Application
+  name: ProjectManagement.Application
+  type: Namespace
+  items:
+  - uid: ProjectManagement.Application.Commands
+    name: Commands
+    type: Namespace
+    items:
+    - uid: ProjectManagement.Application.Commands.CreateEmployeeCommand
+      name: CreateEmployeeCommand
+      type: Class
+  - uid: ProjectManagement.Application.DTO
+    name: DTO
+    type: Namespace
+    items:
+    - uid: ProjectManagement.Application.DTO.EmployeeResult
+      name: EmployeeResult
+      type: Class
+  - uid: ProjectManagement.Application.Handlers
+    name: Handlers
+    type: Namespace
+    items:
+    - uid: ProjectManagement.Application.Handlers.CreateEmployeeHandler
+      name: CreateEmployeeHandler
+      type: Class
+memberLayout: SamePage

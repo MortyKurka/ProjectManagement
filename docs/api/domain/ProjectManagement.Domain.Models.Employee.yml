@@ -1,0 +1,824 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProjectManagement.Domain.Models.Employee
+  commentId: T:ProjectManagement.Domain.Models.Employee
+  id: Employee
+  parent: ProjectManagement.Domain.Models
+  children:
+  - ProjectManagement.Domain.Models.Employee.#ctor(ProjectManagement.Domain.ValueObjects.Name,ProjectManagement.Domain.ValueObjects.Email,ProjectManagement.Domain.ValueObjects.WorkPass,ProjectManagement.Domain.Enums.EmployeeRole)
+  - ProjectManagement.Domain.Models.Employee.Email
+  - ProjectManagement.Domain.Models.Employee.Id
+  - ProjectManagement.Domain.Models.Employee.IsHired
+  - ProjectManagement.Domain.Models.Employee.MarkAsFree
+  - ProjectManagement.Domain.Models.Employee.MarkAsHired(System.Int32)
+  - ProjectManagement.Domain.Models.Employee.Name
+  - ProjectManagement.Domain.Models.Employee.ProjectId
+  - ProjectManagement.Domain.Models.Employee.Role
+  - ProjectManagement.Domain.Models.Employee.UpdateEmail(ProjectManagement.Domain.ValueObjects.Email)
+  - ProjectManagement.Domain.Models.Employee.WorkPass
+  langs:
+  - csharp
+  - vb
+  name: Employee
+  nameWithType: Employee
+  fullName: ProjectManagement.Domain.Models.Employee
+  type: Class
+  source:
+    remote:
+      path: src/ProjectManagement.Domain/Models/Employee.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: Employee
+    path: ../src/ProjectManagement.Domain/Models/Employee.cs
+    startLine: 6
+  assemblies:
+  - ProjectManagement.Domain
+  namespace: ProjectManagement.Domain.Models
+  syntax:
+    content: public class Employee
+    content.vb: Public Class Employee
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: ProjectManagement.Domain.Models.Employee.Id
+  commentId: P:ProjectManagement.Domain.Models.Employee.Id
+  id: Id
+  parent: ProjectManagement.Domain.Models.Employee
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Employee.Id
+  fullName: ProjectManagement.Domain.Models.Employee.Id
+  type: Property
+  source:
+    remote:
+      path: src/ProjectManagement.Domain/Models/Employee.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: Id
+    path: ../src/ProjectManagement.Domain/Models/Employee.cs
+    startLine: 8
+  assemblies:
+  - ProjectManagement.Domain
+  namespace: ProjectManagement.Domain.Models
+  syntax:
+    content: public int Id { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: ProjectManagement.Domain.Models.Employee.Id*
+- uid: ProjectManagement.Domain.Models.Employee.Email
+  commentId: P:ProjectManagement.Domain.Models.Employee.Email
+  id: Email
+  parent: ProjectManagement.Domain.Models.Employee
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: Employee.Email
+  fullName: ProjectManagement.Domain.Models.Employee.Email
+  type: Property
+  source:
+    remote:
+      path: src/ProjectManagement.Domain/Models/Employee.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: Email
+    path: ../src/ProjectManagement.Domain/Models/Employee.cs
+    startLine: 9
+  assemblies:
+  - ProjectManagement.Domain
+  namespace: ProjectManagement.Domain.Models
+  syntax:
+    content: public Email Email { get; }
+    parameters: []
+    return:
+      type: ProjectManagement.Domain.ValueObjects.Email
+    content.vb: Public Property Email As Email
+  overload: ProjectManagement.Domain.Models.Employee.Email*
+- uid: ProjectManagement.Domain.Models.Employee.Name
+  commentId: P:ProjectManagement.Domain.Models.Employee.Name
+  id: Name
+  parent: ProjectManagement.Domain.Models.Employee
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Employee.Name
+  fullName: ProjectManagement.Domain.Models.Employee.Name
+  type: Property
+  source:
+    remote:
+      path: src/ProjectManagement.Domain/Models/Employee.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: Name
+    path: ../src/ProjectManagement.Domain/Models/Employee.cs
+    startLine: 10
+  assemblies:
+  - ProjectManagement.Domain
+  namespace: ProjectManagement.Domain.Models
+  syntax:
+    content: public Name Name { get; }
+    parameters: []
+    return:
+      type: ProjectManagement.Domain.ValueObjects.Name
+    content.vb: Public Property Name As Name
+  overload: ProjectManagement.Domain.Models.Employee.Name*
+- uid: ProjectManagement.Domain.Models.Employee.WorkPass
+  commentId: P:ProjectManagement.Domain.Models.Employee.WorkPass
+  id: WorkPass
+  parent: ProjectManagement.Domain.Models.Employee
+  langs:
+  - csharp
+  - vb
+  name: WorkPass
+  nameWithType: Employee.WorkPass
+  fullName: ProjectManagement.Domain.Models.Employee.WorkPass
+  type: Property
+  source:
+    remote:
+      path: src/ProjectManagement.Domain/Models/Employee.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: WorkPass
+    path: ../src/ProjectManagement.Domain/Models/Employee.cs
+    startLine: 11
+  assemblies:
+  - ProjectManagement.Domain
+  namespace: ProjectManagement.Domain.Models
+  syntax:
+    content: public WorkPass WorkPass { get; }
+    parameters: []
+    return:
+      type: ProjectManagement.Domain.ValueObjects.WorkPass
+    content.vb: Public Property WorkPass As WorkPass
+  overload: ProjectManagement.Domain.Models.Employee.WorkPass*
+- uid: ProjectManagement.Domain.Models.Employee.Role
+  commentId: P:ProjectManagement.Domain.Models.Employee.Role
+  id: Role
+  parent: ProjectManagement.Domain.Models.Employee
+  langs:
+  - csharp
+  - vb
+  name: Role
+  nameWithType: Employee.Role
+  fullName: ProjectManagement.Domain.Models.Employee.Role
+  type: Property
+  source:
+    remote:
+      path: src/ProjectManagement.Domain/Models/Employee.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: Role
+    path: ../src/ProjectManagement.Domain/Models/Employee.cs
+    startLine: 12
+  assemblies:
+  - ProjectManagement.Domain
+  namespace: ProjectManagement.Domain.Models
+  syntax:
+    content: public EmployeeRole Role { get; }
+    parameters: []
+    return:
+      type: ProjectManagement.Domain.Enums.EmployeeRole
+    content.vb: Public Property Role As EmployeeRole
+  overload: ProjectManagement.Domain.Models.Employee.Role*
+- uid: ProjectManagement.Domain.Models.Employee.ProjectId
+  commentId: P:ProjectManagement.Domain.Models.Employee.ProjectId
+  id: ProjectId
+  parent: ProjectManagement.Domain.Models.Employee
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: Employee.ProjectId
+  fullName: ProjectManagement.Domain.Models.Employee.ProjectId
+  type: Property
+  source:
+    remote:
+      path: src/ProjectManagement.Domain/Models/Employee.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: ProjectId
+    path: ../src/ProjectManagement.Domain/Models/Employee.cs
+    startLine: 13
+  assemblies:
+  - ProjectManagement.Domain
+  namespace: ProjectManagement.Domain.Models
+  syntax:
+    content: public int ProjectId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProjectId As Integer
+  overload: ProjectManagement.Domain.Models.Employee.ProjectId*
+- uid: ProjectManagement.Domain.Models.Employee.IsHired
+  commentId: P:ProjectManagement.Domain.Models.Employee.IsHired
+  id: IsHired
+  parent: ProjectManagement.Domain.Models.Employee
+  langs:
+  - csharp
+  - vb
+  name: IsHired
+  nameWithType: Employee.IsHired
+  fullName: ProjectManagement.Domain.Models.Employee.IsHired
+  type: Property
+  source:
+    remote:
+      path: src/ProjectManagement.Domain/Models/Employee.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: IsHired
+    path: ../src/ProjectManagement.Domain/Models/Employee.cs
+    startLine: 14
+  assemblies:
+  - ProjectManagement.Domain
+  namespace: ProjectManagement.Domain.Models
+  syntax:
+    content: public bool IsHired { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsHired As Boolean
+  overload: ProjectManagement.Domain.Models.Employee.IsHired*
+- uid: ProjectManagement.Domain.Models.Employee.#ctor(ProjectManagement.Domain.ValueObjects.Name,ProjectManagement.Domain.ValueObjects.Email,ProjectManagement.Domain.ValueObjects.WorkPass,ProjectManagement.Domain.Enums.EmployeeRole)
+  commentId: M:ProjectManagement.Domain.Models.Employee.#ctor(ProjectManagement.Domain.ValueObjects.Name,ProjectManagement.Domain.ValueObjects.Email,ProjectManagement.Domain.ValueObjects.WorkPass,ProjectManagement.Domain.Enums.EmployeeRole)
+  id: '#ctor(ProjectManagement.Domain.ValueObjects.Name,ProjectManagement.Domain.ValueObjects.Email,ProjectManagement.Domain.ValueObjects.WorkPass,ProjectManagement.Domain.Enums.EmployeeRole)'
+  parent: ProjectManagement.Domain.Models.Employee
+  langs:
+  - csharp
+  - vb
+  name: Employee(Name, Email, WorkPass, EmployeeRole)
+  nameWithType: Employee.Employee(Name, Email, WorkPass, EmployeeRole)
+  fullName: ProjectManagement.Domain.Models.Employee.Employee(ProjectManagement.Domain.ValueObjects.Name, ProjectManagement.Domain.ValueObjects.Email, ProjectManagement.Domain.ValueObjects.WorkPass, ProjectManagement.Domain.Enums.EmployeeRole)
+  type: Constructor
+  source:
+    remote:
+      path: src/ProjectManagement.Domain/Models/Employee.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: .ctor
+    path: ../src/ProjectManagement.Domain/Models/Employee.cs
+    startLine: 17
+  assemblies:
+  - ProjectManagement.Domain
+  namespace: ProjectManagement.Domain.Models
+  syntax:
+    content: public Employee(Name name, Email email, WorkPass workPass, EmployeeRole role)
+    parameters:
+    - id: name
+      type: ProjectManagement.Domain.ValueObjects.Name
+    - id: email
+      type: ProjectManagement.Domain.ValueObjects.Email
+    - id: workPass
+      type: ProjectManagement.Domain.ValueObjects.WorkPass
+    - id: role
+      type: ProjectManagement.Domain.Enums.EmployeeRole
+    content.vb: Public Sub New(name As Name, email As Email, workPass As WorkPass, role As EmployeeRole)
+  overload: ProjectManagement.Domain.Models.Employee.#ctor*
+  nameWithType.vb: Employee.New(Name, Email, WorkPass, EmployeeRole)
+  fullName.vb: ProjectManagement.Domain.Models.Employee.New(ProjectManagement.Domain.ValueObjects.Name, ProjectManagement.Domain.ValueObjects.Email, ProjectManagement.Domain.ValueObjects.WorkPass, ProjectManagement.Domain.Enums.EmployeeRole)
+  name.vb: New(Name, Email, WorkPass, EmployeeRole)
+- uid: ProjectManagement.Domain.Models.Employee.MarkAsHired(System.Int32)
+  commentId: M:ProjectManagement.Domain.Models.Employee.MarkAsHired(System.Int32)
+  id: MarkAsHired(System.Int32)
+  parent: ProjectManagement.Domain.Models.Employee
+  langs:
+  - csharp
+  - vb
+  name: MarkAsHired(int)
+  nameWithType: Employee.MarkAsHired(int)
+  fullName: ProjectManagement.Domain.Models.Employee.MarkAsHired(int)
+  type: Method
+  source:
+    remote:
+      path: src/ProjectManagement.Domain/Models/Employee.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: MarkAsHired
+    path: ../src/ProjectManagement.Domain/Models/Employee.cs
+    startLine: 27
+  assemblies:
+  - ProjectManagement.Domain
+  namespace: ProjectManagement.Domain.Models
+  syntax:
+    content: public void MarkAsHired(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+    content.vb: Public Sub MarkAsHired(projectId As Integer)
+  overload: ProjectManagement.Domain.Models.Employee.MarkAsHired*
+  nameWithType.vb: Employee.MarkAsHired(Integer)
+  fullName.vb: ProjectManagement.Domain.Models.Employee.MarkAsHired(Integer)
+  name.vb: MarkAsHired(Integer)
+- uid: ProjectManagement.Domain.Models.Employee.MarkAsFree
+  commentId: M:ProjectManagement.Domain.Models.Employee.MarkAsFree
+  id: MarkAsFree
+  parent: ProjectManagement.Domain.Models.Employee
+  langs:
+  - csharp
+  - vb
+  name: MarkAsFree()
+  nameWithType: Employee.MarkAsFree()
+  fullName: ProjectManagement.Domain.Models.Employee.MarkAsFree()
+  type: Method
+  source:
+    remote:
+      path: src/ProjectManagement.Domain/Models/Employee.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: MarkAsFree
+    path: ../src/ProjectManagement.Domain/Models/Employee.cs
+    startLine: 35
+  assemblies:
+  - ProjectManagement.Domain
+  namespace: ProjectManagement.Domain.Models
+  syntax:
+    content: public void MarkAsFree()
+    content.vb: Public Sub MarkAsFree()
+  overload: ProjectManagement.Domain.Models.Employee.MarkAsFree*
+- uid: ProjectManagement.Domain.Models.Employee.UpdateEmail(ProjectManagement.Domain.ValueObjects.Email)
+  commentId: M:ProjectManagement.Domain.Models.Employee.UpdateEmail(ProjectManagement.Domain.ValueObjects.Email)
+  id: UpdateEmail(ProjectManagement.Domain.ValueObjects.Email)
+  parent: ProjectManagement.Domain.Models.Employee
+  langs:
+  - csharp
+  - vb
+  name: UpdateEmail(Email)
+  nameWithType: Employee.UpdateEmail(Email)
+  fullName: ProjectManagement.Domain.Models.Employee.UpdateEmail(ProjectManagement.Domain.ValueObjects.Email)
+  type: Method
+  source:
+    remote:
+      path: src/ProjectManagement.Domain/Models/Employee.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: UpdateEmail
+    path: ../src/ProjectManagement.Domain/Models/Employee.cs
+    startLine: 42
+  assemblies:
+  - ProjectManagement.Domain
+  namespace: ProjectManagement.Domain.Models
+  syntax:
+    content: public void UpdateEmail(Email email)
+    parameters:
+    - id: email
+      type: ProjectManagement.Domain.ValueObjects.Email
+    content.vb: Public Sub UpdateEmail(email As Email)
+  overload: ProjectManagement.Domain.Models.Employee.UpdateEmail*
+references:
+- uid: ProjectManagement.Domain.Models
+  commentId: N:ProjectManagement.Domain.Models
+  href: ProjectManagement.html
+  name: ProjectManagement.Domain.Models
+  nameWithType: ProjectManagement.Domain.Models
+  fullName: ProjectManagement.Domain.Models
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Domain
+    name: Domain
+    href: ProjectManagement.Domain.html
+  - name: .
+  - uid: ProjectManagement.Domain.Models
+    name: Models
+    href: ProjectManagement.Domain.Models.html
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Domain
+    name: Domain
+    href: ProjectManagement.Domain.html
+  - name: .
+  - uid: ProjectManagement.Domain.Models
+    name: Models
+    href: ProjectManagement.Domain.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProjectManagement.Domain.Models.Employee.Id*
+  commentId: Overload:ProjectManagement.Domain.Models.Employee.Id
+  href: ProjectManagement.Domain.Models.Employee.html#ProjectManagement_Domain_Models_Employee_Id
+  name: Id
+  nameWithType: Employee.Id
+  fullName: ProjectManagement.Domain.Models.Employee.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: ProjectManagement.Domain.Models.Employee.Email*
+  commentId: Overload:ProjectManagement.Domain.Models.Employee.Email
+  href: ProjectManagement.Domain.Models.Employee.html#ProjectManagement_Domain_Models_Employee_Email
+  name: Email
+  nameWithType: Employee.Email
+  fullName: ProjectManagement.Domain.Models.Employee.Email
+- uid: ProjectManagement.Domain.ValueObjects.Email
+  commentId: T:ProjectManagement.Domain.ValueObjects.Email
+  parent: ProjectManagement.Domain.ValueObjects
+  href: ProjectManagement.Domain.ValueObjects.Email.html
+  name: Email
+  nameWithType: Email
+  fullName: ProjectManagement.Domain.ValueObjects.Email
+- uid: ProjectManagement.Domain.ValueObjects
+  commentId: N:ProjectManagement.Domain.ValueObjects
+  href: ProjectManagement.html
+  name: ProjectManagement.Domain.ValueObjects
+  nameWithType: ProjectManagement.Domain.ValueObjects
+  fullName: ProjectManagement.Domain.ValueObjects
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Domain
+    name: Domain
+    href: ProjectManagement.Domain.html
+  - name: .
+  - uid: ProjectManagement.Domain.ValueObjects
+    name: ValueObjects
+    href: ProjectManagement.Domain.ValueObjects.html
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Domain
+    name: Domain
+    href: ProjectManagement.Domain.html
+  - name: .
+  - uid: ProjectManagement.Domain.ValueObjects
+    name: ValueObjects
+    href: ProjectManagement.Domain.ValueObjects.html
+- uid: ProjectManagement.Domain.Models.Employee.Name*
+  commentId: Overload:ProjectManagement.Domain.Models.Employee.Name
+  href: ProjectManagement.Domain.Models.Employee.html#ProjectManagement_Domain_Models_Employee_Name
+  name: Name
+  nameWithType: Employee.Name
+  fullName: ProjectManagement.Domain.Models.Employee.Name
+- uid: ProjectManagement.Domain.ValueObjects.Name
+  commentId: T:ProjectManagement.Domain.ValueObjects.Name
+  parent: ProjectManagement.Domain.ValueObjects
+  href: ProjectManagement.Domain.ValueObjects.Name.html
+  name: Name
+  nameWithType: Name
+  fullName: ProjectManagement.Domain.ValueObjects.Name
+- uid: ProjectManagement.Domain.Models.Employee.WorkPass*
+  commentId: Overload:ProjectManagement.Domain.Models.Employee.WorkPass
+  href: ProjectManagement.Domain.Models.Employee.html#ProjectManagement_Domain_Models_Employee_WorkPass
+  name: WorkPass
+  nameWithType: Employee.WorkPass
+  fullName: ProjectManagement.Domain.Models.Employee.WorkPass
+- uid: ProjectManagement.Domain.ValueObjects.WorkPass
+  commentId: T:ProjectManagement.Domain.ValueObjects.WorkPass
+  parent: ProjectManagement.Domain.ValueObjects
+  href: ProjectManagement.Domain.ValueObjects.WorkPass.html
+  name: WorkPass
+  nameWithType: WorkPass
+  fullName: ProjectManagement.Domain.ValueObjects.WorkPass
+- uid: ProjectManagement.Domain.Models.Employee.Role*
+  commentId: Overload:ProjectManagement.Domain.Models.Employee.Role
+  href: ProjectManagement.Domain.Models.Employee.html#ProjectManagement_Domain_Models_Employee_Role
+  name: Role
+  nameWithType: Employee.Role
+  fullName: ProjectManagement.Domain.Models.Employee.Role
+- uid: ProjectManagement.Domain.Enums.EmployeeRole
+  commentId: T:ProjectManagement.Domain.Enums.EmployeeRole
+  parent: ProjectManagement.Domain.Enums
+  href: ProjectManagement.Domain.Enums.EmployeeRole.html
+  name: EmployeeRole
+  nameWithType: EmployeeRole
+  fullName: ProjectManagement.Domain.Enums.EmployeeRole
+- uid: ProjectManagement.Domain.Enums
+  commentId: N:ProjectManagement.Domain.Enums
+  href: ProjectManagement.html
+  name: ProjectManagement.Domain.Enums
+  nameWithType: ProjectManagement.Domain.Enums
+  fullName: ProjectManagement.Domain.Enums
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Domain
+    name: Domain
+    href: ProjectManagement.Domain.html
+  - name: .
+  - uid: ProjectManagement.Domain.Enums
+    name: Enums
+    href: ProjectManagement.Domain.Enums.html
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Domain
+    name: Domain
+    href: ProjectManagement.Domain.html
+  - name: .
+  - uid: ProjectManagement.Domain.Enums
+    name: Enums
+    href: ProjectManagement.Domain.Enums.html
+- uid: ProjectManagement.Domain.Models.Employee.ProjectId*
+  commentId: Overload:ProjectManagement.Domain.Models.Employee.ProjectId
+  href: ProjectManagement.Domain.Models.Employee.html#ProjectManagement_Domain_Models_Employee_ProjectId
+  name: ProjectId
+  nameWithType: Employee.ProjectId
+  fullName: ProjectManagement.Domain.Models.Employee.ProjectId
+- uid: ProjectManagement.Domain.Models.Employee.IsHired*
+  commentId: Overload:ProjectManagement.Domain.Models.Employee.IsHired
+  href: ProjectManagement.Domain.Models.Employee.html#ProjectManagement_Domain_Models_Employee_IsHired
+  name: IsHired
+  nameWithType: Employee.IsHired
+  fullName: ProjectManagement.Domain.Models.Employee.IsHired
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ProjectManagement.Domain.Models.Employee.#ctor*
+  commentId: Overload:ProjectManagement.Domain.Models.Employee.#ctor
+  href: ProjectManagement.Domain.Models.Employee.html#ProjectManagement_Domain_Models_Employee__ctor_ProjectManagement_Domain_ValueObjects_Name_ProjectManagement_Domain_ValueObjects_Email_ProjectManagement_Domain_ValueObjects_WorkPass_ProjectManagement_Domain_Enums_EmployeeRole_
+  name: Employee
+  nameWithType: Employee.Employee
+  fullName: ProjectManagement.Domain.Models.Employee.Employee
+  nameWithType.vb: Employee.New
+  fullName.vb: ProjectManagement.Domain.Models.Employee.New
+  name.vb: New
+- uid: ProjectManagement.Domain.Models.Employee.MarkAsHired*
+  commentId: Overload:ProjectManagement.Domain.Models.Employee.MarkAsHired
+  href: ProjectManagement.Domain.Models.Employee.html#ProjectManagement_Domain_Models_Employee_MarkAsHired_System_Int32_
+  name: MarkAsHired
+  nameWithType: Employee.MarkAsHired
+  fullName: ProjectManagement.Domain.Models.Employee.MarkAsHired
+- uid: ProjectManagement.Domain.Models.Employee.MarkAsFree*
+  commentId: Overload:ProjectManagement.Domain.Models.Employee.MarkAsFree
+  href: ProjectManagement.Domain.Models.Employee.html#ProjectManagement_Domain_Models_Employee_MarkAsFree
+  name: MarkAsFree
+  nameWithType: Employee.MarkAsFree
+  fullName: ProjectManagement.Domain.Models.Employee.MarkAsFree
+- uid: ProjectManagement.Domain.Models.Employee.UpdateEmail*
+  commentId: Overload:ProjectManagement.Domain.Models.Employee.UpdateEmail
+  href: ProjectManagement.Domain.Models.Employee.html#ProjectManagement_Domain_Models_Employee_UpdateEmail_ProjectManagement_Domain_ValueObjects_Email_
+  name: UpdateEmail
+  nameWithType: Employee.UpdateEmail
+  fullName: ProjectManagement.Domain.Models.Employee.UpdateEmail

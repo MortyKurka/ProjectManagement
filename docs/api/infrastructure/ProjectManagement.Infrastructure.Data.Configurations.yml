@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProjectManagement.Infrastructure.Data.Configurations
+  commentId: N:ProjectManagement.Infrastructure.Data.Configurations
+  id: Configurations
+  parent: ProjectManagement.Infrastructure.Data
+  children:
+  - ProjectManagement.Infrastructure.Data.Configurations.EmployeeConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ProjectManagement.Infrastructure.Data.Configurations
+  nameWithType: ProjectManagement.Infrastructure.Data.Configurations
+  fullName: ProjectManagement.Infrastructure.Data.Configurations
+  type: Namespace
+  assemblies:
+  - ProjectManagement.Infrastructure
+references:
+- uid: ProjectManagement.Infrastructure.Data.Configurations.EmployeeConfiguration
+  commentId: T:ProjectManagement.Infrastructure.Data.Configurations.EmployeeConfiguration
+  href: ProjectManagement.Infrastructure.Data.Configurations.EmployeeConfiguration.html
+  name: EmployeeConfiguration
+  nameWithType: EmployeeConfiguration
+  fullName: ProjectManagement.Infrastructure.Data.Configurations.EmployeeConfiguration

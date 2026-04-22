@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProjectManagement.Domain.Enums.EmployeeRole
+  commentId: T:ProjectManagement.Domain.Enums.EmployeeRole
+  id: EmployeeRole
+  parent: ProjectManagement.Domain.Enums
+  children:
+  - ProjectManagement.Domain.Enums.EmployeeRole.Analyst
+  - ProjectManagement.Domain.Enums.EmployeeRole.DevOps
+  - ProjectManagement.Domain.Enums.EmployeeRole.Developer
+  - ProjectManagement.Domain.Enums.EmployeeRole.Lead
+  langs:
+  - csharp
+  - vb
+  name: EmployeeRole
+  nameWithType: EmployeeRole
+  fullName: ProjectManagement.Domain.Enums.EmployeeRole
+  type: Enum
+  source:
+    remote:
+      path: src/ProjectManagement.Domain/Enums/EmployeeRole.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: EmployeeRole
+    path: ../src/ProjectManagement.Domain/Enums/EmployeeRole.cs
+    startLine: 5
+  assemblies:
+  - ProjectManagement.Domain
+  namespace: ProjectManagement.Domain.Enums
+  summary: Роль сотрудника в компании.
+  example: []
+  syntax:
+    content: public enum EmployeeRole
+    content.vb: Public Enum EmployeeRole
+- uid: ProjectManagement.Domain.Enums.EmployeeRole.DevOps
+  commentId: F:ProjectManagement.Domain.Enums.EmployeeRole.DevOps
+  id: DevOps
+  parent: ProjectManagement.Domain.Enums.EmployeeRole
+  langs:
+  - csharp
+  - vb
+  name: DevOps
+  nameWithType: EmployeeRole.DevOps
+  fullName: ProjectManagement.Domain.Enums.EmployeeRole.DevOps
+  type: Field
+  source:
+    remote:
+      path: src/ProjectManagement.Domain/Enums/EmployeeRole.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: DevOps
+    path: ../src/ProjectManagement.Domain/Enums/EmployeeRole.cs
+    startLine: 10
+  assemblies:
+  - ProjectManagement.Domain
+  namespace: ProjectManagement.Domain.Enums
+  summary: DevOps-инженер
+  example: []
+  syntax:
+    content: DevOps = 0
+    return:
+      type: ProjectManagement.Domain.Enums.EmployeeRole
+- uid: ProjectManagement.Domain.Enums.EmployeeRole.Developer
+  commentId: F:ProjectManagement.Domain.Enums.EmployeeRole.Developer
+  id: Developer
+  parent: ProjectManagement.Domain.Enums.EmployeeRole
+  langs:
+  - csharp
+  - vb
+  name: Developer
+  nameWithType: EmployeeRole.Developer
+  fullName: ProjectManagement.Domain.Enums.EmployeeRole.Developer
+  type: Field
+  source:
+    remote:
+      path: src/ProjectManagement.Domain/Enums/EmployeeRole.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: Developer
+    path: ../src/ProjectManagement.Domain/Enums/EmployeeRole.cs
+    startLine: 14
+  assemblies:
+  - ProjectManagement.Domain
+  namespace: ProjectManagement.Domain.Enums
+  summary: Разработчик (Back/Front)
+  example: []
+  syntax:
+    content: Developer = 1
+    return:
+      type: ProjectManagement.Domain.Enums.EmployeeRole
+- uid: ProjectManagement.Domain.Enums.EmployeeRole.Analyst
+  commentId: F:ProjectManagement.Domain.Enums.EmployeeRole.Analyst
+  id: Analyst
+  parent: ProjectManagement.Domain.Enums.EmployeeRole
+  langs:
+  - csharp
+  - vb
+  name: Analyst
+  nameWithType: EmployeeRole.Analyst
+  fullName: ProjectManagement.Domain.Enums.EmployeeRole.Analyst
+  type: Field
+  source:
+    remote:
+      path: src/ProjectManagement.Domain/Enums/EmployeeRole.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: Analyst
+    path: ../src/ProjectManagement.Domain/Enums/EmployeeRole.cs
+    startLine: 18
+  assemblies:
+  - ProjectManagement.Domain
+  namespace: ProjectManagement.Domain.Enums
+  summary: Бизнес-аналитик
+  example: []
+  syntax:
+    content: Analyst = 2
+    return:
+      type: ProjectManagement.Domain.Enums.EmployeeRole
+- uid: ProjectManagement.Domain.Enums.EmployeeRole.Lead
+  commentId: F:ProjectManagement.Domain.Enums.EmployeeRole.Lead
+  id: Lead
+  parent: ProjectManagement.Domain.Enums.EmployeeRole
+  langs:
+  - csharp
+  - vb
+  name: Lead
+  nameWithType: EmployeeRole.Lead
+  fullName: ProjectManagement.Domain.Enums.EmployeeRole.Lead
+  type: Field
+  source:
+    remote:
+      path: src/ProjectManagement.Domain/Enums/EmployeeRole.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: Lead
+    path: ../src/ProjectManagement.Domain/Enums/EmployeeRole.cs
+    startLine: 22
+  assemblies:
+  - ProjectManagement.Domain
+  namespace: ProjectManagement.Domain.Enums
+  summary: Тим-лид
+  example: []
+  syntax:
+    content: Lead = 3
+    return:
+      type: ProjectManagement.Domain.Enums.EmployeeRole
+references:
+- uid: ProjectManagement.Domain.Enums
+  commentId: N:ProjectManagement.Domain.Enums
+  href: ProjectManagement.html
+  name: ProjectManagement.Domain.Enums
+  nameWithType: ProjectManagement.Domain.Enums
+  fullName: ProjectManagement.Domain.Enums
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Domain
+    name: Domain
+    href: ProjectManagement.Domain.html
+  - name: .
+  - uid: ProjectManagement.Domain.Enums
+    name: Enums
+    href: ProjectManagement.Domain.Enums.html
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Domain
+    name: Domain
+    href: ProjectManagement.Domain.html
+  - name: .
+  - uid: ProjectManagement.Domain.Enums
+    name: Enums
+    href: ProjectManagement.Domain.Enums.html
+- uid: ProjectManagement.Domain.Enums.EmployeeRole
+  commentId: T:ProjectManagement.Domain.Enums.EmployeeRole
+  parent: ProjectManagement.Domain.Enums
+  href: ProjectManagement.Domain.Enums.EmployeeRole.html
+  name: EmployeeRole
+  nameWithType: EmployeeRole
+  fullName: ProjectManagement.Domain.Enums.EmployeeRole

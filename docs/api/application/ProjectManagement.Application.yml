@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProjectManagement.Application
+  id: ProjectManagement.Application
+  children:
+  - ProjectManagement.Application.Commands
+  - ProjectManagement.Application.DTO
+  - ProjectManagement.Application.Handlers
+  langs:
+  - csharp
+  - vb
+  name: ProjectManagement.Application
+  type: Namespace
+references:
+- uid: ProjectManagement.Application.Commands
+  commentId: N:ProjectManagement.Application.Commands
+  href: ProjectManagement.html
+  name: ProjectManagement.Application.Commands
+  nameWithType: ProjectManagement.Application.Commands
+  fullName: ProjectManagement.Application.Commands
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Application
+    name: Application
+    href: ProjectManagement.Application.html
+  - name: .
+  - uid: ProjectManagement.Application.Commands
+    name: Commands
+    href: ProjectManagement.Application.Commands.html
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Application
+    name: Application
+    href: ProjectManagement.Application.html
+  - name: .
+  - uid: ProjectManagement.Application.Commands
+    name: Commands
+    href: ProjectManagement.Application.Commands.html
+- uid: ProjectManagement.Application.DTO
+  commentId: N:ProjectManagement.Application.DTO
+  href: ProjectManagement.html
+  name: ProjectManagement.Application.DTO
+  nameWithType: ProjectManagement.Application.DTO
+  fullName: ProjectManagement.Application.DTO
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Application
+    name: Application
+    href: ProjectManagement.Application.html
+  - name: .
+  - uid: ProjectManagement.Application.DTO
+    name: DTO
+    href: ProjectManagement.Application.DTO.html
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Application
+    name: Application
+    href: ProjectManagement.Application.html
+  - name: .
+  - uid: ProjectManagement.Application.DTO
+    name: DTO
+    href: ProjectManagement.Application.DTO.html
+- uid: ProjectManagement.Application.Handlers
+  commentId: N:ProjectManagement.Application.Handlers
+  href: ProjectManagement.html
+  name: ProjectManagement.Application.Handlers
+  nameWithType: ProjectManagement.Application.Handlers
+  fullName: ProjectManagement.Application.Handlers
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Application
+    name: Application
+    href: ProjectManagement.Application.html
+  - name: .
+  - uid: ProjectManagement.Application.Handlers
+    name: Handlers
+    href: ProjectManagement.Application.Handlers.html
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Application
+    name: Application
+    href: ProjectManagement.Application.html
+  - name: .
+  - uid: ProjectManagement.Application.Handlers
+    name: Handlers
+    href: ProjectManagement.Application.Handlers.html

@@ -1,0 +1,492 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProjectManagement.Presentation.Console.App
+  commentId: T:ProjectManagement.Presentation.Console.App
+  id: App
+  parent: ProjectManagement.Presentation.Console
+  children:
+  - ProjectManagement.Presentation.Console.App.#ctor(ProjectManagement.Application.Handlers.CreateEmployeeHandler)
+  - ProjectManagement.Presentation.Console.App.AddEmployee
+  - ProjectManagement.Presentation.Console.App.RunAsync
+  langs:
+  - csharp
+  - vb
+  name: App
+  nameWithType: App
+  fullName: ProjectManagement.Presentation.Console.App
+  type: Class
+  source:
+    remote:
+      path: src/ProjectManagement.Presentation/ProjectManagement.Presentation.Console/App.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: App
+    path: ../src/ProjectManagement.Presentation/ProjectManagement.Presentation.Console/App.cs
+    startLine: 5
+  assemblies:
+  - ProjectManagement.Presentation.Console
+  namespace: ProjectManagement.Presentation.Console
+  syntax:
+    content: public class App
+    content.vb: Public Class App
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: ProjectManagement.Presentation.Console.App.#ctor(ProjectManagement.Application.Handlers.CreateEmployeeHandler)
+  commentId: M:ProjectManagement.Presentation.Console.App.#ctor(ProjectManagement.Application.Handlers.CreateEmployeeHandler)
+  id: '#ctor(ProjectManagement.Application.Handlers.CreateEmployeeHandler)'
+  parent: ProjectManagement.Presentation.Console.App
+  langs:
+  - csharp
+  - vb
+  name: App(CreateEmployeeHandler)
+  nameWithType: App.App(CreateEmployeeHandler)
+  fullName: ProjectManagement.Presentation.Console.App.App(ProjectManagement.Application.Handlers.CreateEmployeeHandler)
+  type: Constructor
+  source:
+    remote:
+      path: src/ProjectManagement.Presentation/ProjectManagement.Presentation.Console/App.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: .ctor
+    path: ../src/ProjectManagement.Presentation/ProjectManagement.Presentation.Console/App.cs
+    startLine: 9
+  assemblies:
+  - ProjectManagement.Presentation.Console
+  namespace: ProjectManagement.Presentation.Console
+  syntax:
+    content: public App(CreateEmployeeHandler crEmHandler)
+    parameters:
+    - id: crEmHandler
+      type: ProjectManagement.Application.Handlers.CreateEmployeeHandler
+    content.vb: Public Sub New(crEmHandler As CreateEmployeeHandler)
+  overload: ProjectManagement.Presentation.Console.App.#ctor*
+  nameWithType.vb: App.New(CreateEmployeeHandler)
+  fullName.vb: ProjectManagement.Presentation.Console.App.New(ProjectManagement.Application.Handlers.CreateEmployeeHandler)
+  name.vb: New(CreateEmployeeHandler)
+- uid: ProjectManagement.Presentation.Console.App.RunAsync
+  commentId: M:ProjectManagement.Presentation.Console.App.RunAsync
+  id: RunAsync
+  parent: ProjectManagement.Presentation.Console.App
+  langs:
+  - csharp
+  - vb
+  name: RunAsync()
+  nameWithType: App.RunAsync()
+  fullName: ProjectManagement.Presentation.Console.App.RunAsync()
+  type: Method
+  source:
+    remote:
+      path: src/ProjectManagement.Presentation/ProjectManagement.Presentation.Console/App.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: RunAsync
+    path: ../src/ProjectManagement.Presentation/ProjectManagement.Presentation.Console/App.cs
+    startLine: 14
+  assemblies:
+  - ProjectManagement.Presentation.Console
+  namespace: ProjectManagement.Presentation.Console
+  syntax:
+    content: public Task RunAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function RunAsync() As Task
+  overload: ProjectManagement.Presentation.Console.App.RunAsync*
+- uid: ProjectManagement.Presentation.Console.App.AddEmployee
+  commentId: M:ProjectManagement.Presentation.Console.App.AddEmployee
+  id: AddEmployee
+  parent: ProjectManagement.Presentation.Console.App
+  langs:
+  - csharp
+  - vb
+  name: AddEmployee()
+  nameWithType: App.AddEmployee()
+  fullName: ProjectManagement.Presentation.Console.App.AddEmployee()
+  type: Method
+  source:
+    remote:
+      path: src/ProjectManagement.Presentation/ProjectManagement.Presentation.Console/App.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: AddEmployee
+    path: ../src/ProjectManagement.Presentation/ProjectManagement.Presentation.Console/App.cs
+    startLine: 35
+  assemblies:
+  - ProjectManagement.Presentation.Console
+  namespace: ProjectManagement.Presentation.Console
+  syntax:
+    content: public Task AddEmployee()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function AddEmployee() As Task
+  overload: ProjectManagement.Presentation.Console.App.AddEmployee*
+references:
+- uid: ProjectManagement.Presentation.Console
+  commentId: N:ProjectManagement.Presentation.Console
+  href: ProjectManagement.html
+  name: ProjectManagement.Presentation.Console
+  nameWithType: ProjectManagement.Presentation.Console
+  fullName: ProjectManagement.Presentation.Console
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Presentation
+    name: Presentation
+    href: ProjectManagement.Presentation.html
+  - name: .
+  - uid: ProjectManagement.Presentation.Console
+    name: Console
+    href: ProjectManagement.Presentation.Console.html
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Presentation
+    name: Presentation
+    href: ProjectManagement.Presentation.html
+  - name: .
+  - uid: ProjectManagement.Presentation.Console
+    name: Console
+    href: ProjectManagement.Presentation.Console.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProjectManagement.Presentation.Console.App.#ctor*
+  commentId: Overload:ProjectManagement.Presentation.Console.App.#ctor
+  href: ProjectManagement.Presentation.Console.App.html#ProjectManagement_Presentation_Console_App__ctor_ProjectManagement_Application_Handlers_CreateEmployeeHandler_
+  name: App
+  nameWithType: App.App
+  fullName: ProjectManagement.Presentation.Console.App.App
+  nameWithType.vb: App.New
+  fullName.vb: ProjectManagement.Presentation.Console.App.New
+  name.vb: New
+- uid: ProjectManagement.Application.Handlers.CreateEmployeeHandler
+  commentId: T:ProjectManagement.Application.Handlers.CreateEmployeeHandler
+  parent: ProjectManagement.Application.Handlers
+  name: CreateEmployeeHandler
+  nameWithType: CreateEmployeeHandler
+  fullName: ProjectManagement.Application.Handlers.CreateEmployeeHandler
+- uid: ProjectManagement.Application.Handlers
+  commentId: N:ProjectManagement.Application.Handlers
+  name: ProjectManagement.Application.Handlers
+  nameWithType: ProjectManagement.Application.Handlers
+  fullName: ProjectManagement.Application.Handlers
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+  - name: .
+  - uid: ProjectManagement.Application
+    name: Application
+  - name: .
+  - uid: ProjectManagement.Application.Handlers
+    name: Handlers
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+  - name: .
+  - uid: ProjectManagement.Application
+    name: Application
+  - name: .
+  - uid: ProjectManagement.Application.Handlers
+    name: Handlers
+- uid: ProjectManagement.Presentation.Console.App.RunAsync*
+  commentId: Overload:ProjectManagement.Presentation.Console.App.RunAsync
+  href: ProjectManagement.Presentation.Console.App.html#ProjectManagement_Presentation_Console_App_RunAsync
+  name: RunAsync
+  nameWithType: App.RunAsync
+  fullName: ProjectManagement.Presentation.Console.App.RunAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: ProjectManagement.Presentation.Console.App.AddEmployee*
+  commentId: Overload:ProjectManagement.Presentation.Console.App.AddEmployee
+  href: ProjectManagement.Presentation.Console.App.html#ProjectManagement_Presentation_Console_App_AddEmployee
+  name: AddEmployee
+  nameWithType: App.AddEmployee
+  fullName: ProjectManagement.Presentation.Console.App.AddEmployee

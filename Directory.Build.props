@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <!-- Включает генерацию XML-файла документации для всех проектов -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+</Project>

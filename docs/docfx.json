@@ -1,0 +1,89 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../src/ProjectManagement.Domain",
+          "files": ["**/*.csproj"]
+        }
+      ],
+      "dest": "api/domain",
+      "namespaceLayout": "nested",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    },
+    {
+      "src": [
+        {
+          "src": "../src/ProjectManagement.Application",
+          "files": ["**/*.csproj"]
+        }
+      ],
+      "dest": "api/application",
+      "namespaceLayout": "nested",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    },
+    {
+      "src": [
+        {
+          "src": "../src/ProjectManagement.Infrastructure",
+          "files": ["**/*.csproj"]
+        }
+      ],
+      "dest": "api/infrastructure",
+      "namespaceLayout": "nested",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    },
+    {
+      "src": [
+        {
+          "src": "../src/ProjectManagement.Presentation",
+          "files": ["**/*.csproj"]
+        }
+      ],
+      "dest": "api/presentation",
+      "namespaceLayout": "nested",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/domain/**.yml",
+          "api/domain/**/**.yml",
+          "api/application/**.yml",
+          "api/application/**/**.yml",
+          "api/infrastructure/**.yml",
+          "api/infrastructure/**/**.yml",
+          "api/presentation/**.yml",
+          "api/presentation/**/**.yml",
+          "api/**/toc.yml"
+        ]
+      },
+      {
+        "files": [
+          "articles/**.md",
+          "articles/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": ["images/**"]
+      }
+    ],
+    "output": "_site",
+    "template": ["default"],
+    "globalMetadata": {
+      "_appTitle": "Мой проект",
+      "_appFooter": "© 2024",
+      "_enableSearch": true
+    }
+  }
+}

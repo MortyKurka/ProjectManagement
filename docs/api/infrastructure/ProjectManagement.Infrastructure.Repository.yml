@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProjectManagement.Infrastructure.Repository
+  commentId: N:ProjectManagement.Infrastructure.Repository
+  id: Repository
+  parent: ProjectManagement.Infrastructure
+  children:
+  - ProjectManagement.Infrastructure.Repository.EmployeeRepository
+  langs:
+  - csharp
+  - vb
+  name: ProjectManagement.Infrastructure.Repository
+  nameWithType: ProjectManagement.Infrastructure.Repository
+  fullName: ProjectManagement.Infrastructure.Repository
+  type: Namespace
+  assemblies:
+  - ProjectManagement.Infrastructure
+references:
+- uid: ProjectManagement.Infrastructure.Repository.EmployeeRepository
+  commentId: T:ProjectManagement.Infrastructure.Repository.EmployeeRepository
+  href: ProjectManagement.Infrastructure.Repository.EmployeeRepository.html
+  name: EmployeeRepository
+  nameWithType: EmployeeRepository
+  fullName: ProjectManagement.Infrastructure.Repository.EmployeeRepository

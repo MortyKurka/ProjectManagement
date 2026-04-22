@@ -3,7 +3,7 @@ using ProjectManagement.Domain.Models;
 using ProjectManagement.Infrastructure.Data;
 using ProjectManagement.Infrastructure.Data.Entities;
 
-namespace ProjectManagement.Infrastructure.Repository;
+namespace ProjectManagement.Infrastructure.Repositories;
 
 public class EmployeeRepository : IEmployeeRepository
 {

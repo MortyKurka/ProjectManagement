@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProjectManagement.Infrastructure
+  id: ProjectManagement.Infrastructure
+  children:
+  - ProjectManagement.Infrastructure.Data
+  - ProjectManagement.Infrastructure.Migrations
+  - ProjectManagement.Infrastructure.Repositories
+  langs:
+  - csharp
+  - vb
+  name: ProjectManagement.Infrastructure
+  type: Namespace
+references:
+- uid: ProjectManagement.Infrastructure.Data
+  commentId: N:ProjectManagement.Infrastructure.Data
+  href: ProjectManagement.html
+  name: ProjectManagement.Infrastructure.Data
+  nameWithType: ProjectManagement.Infrastructure.Data
+  fullName: ProjectManagement.Infrastructure.Data
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure
+    name: Infrastructure
+    href: ProjectManagement.Infrastructure.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure.Data
+    name: Data
+    href: ProjectManagement.Infrastructure.Data.html
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure
+    name: Infrastructure
+    href: ProjectManagement.Infrastructure.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure.Data
+    name: Data
+    href: ProjectManagement.Infrastructure.Data.html
+- uid: ProjectManagement.Infrastructure.Migrations
+  commentId: N:ProjectManagement.Infrastructure.Migrations
+  href: ProjectManagement.html
+  name: ProjectManagement.Infrastructure.Migrations
+  nameWithType: ProjectManagement.Infrastructure.Migrations
+  fullName: ProjectManagement.Infrastructure.Migrations
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure
+    name: Infrastructure
+    href: ProjectManagement.Infrastructure.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure.Migrations
+    name: Migrations
+    href: ProjectManagement.Infrastructure.Migrations.html
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure
+    name: Infrastructure
+    href: ProjectManagement.Infrastructure.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure.Migrations
+    name: Migrations
+    href: ProjectManagement.Infrastructure.Migrations.html
+- uid: ProjectManagement.Infrastructure.Repositories
+  commentId: N:ProjectManagement.Infrastructure.Repositories
+  href: ProjectManagement.html
+  name: ProjectManagement.Infrastructure.Repositories
+  nameWithType: ProjectManagement.Infrastructure.Repositories
+  fullName: ProjectManagement.Infrastructure.Repositories
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure
+    name: Infrastructure
+    href: ProjectManagement.Infrastructure.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure.Repositories
+    name: Repositories
+    href: ProjectManagement.Infrastructure.Repositories.html
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure
+    name: Infrastructure
+    href: ProjectManagement.Infrastructure.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure.Repositories
+    name: Repositories
+    href: ProjectManagement.Infrastructure.Repositories.html

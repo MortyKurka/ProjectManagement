@@ -1,0 +1,10 @@
+### YamlMime:TableOfContent
+items:
+- uid: ProjectManagement.Presentation.Console
+  name: ProjectManagement.Presentation.Console
+  type: Namespace
+  items:
+  - uid: ProjectManagement.Presentation.Console.App
+    name: App
+    type: Class
+memberLayout: SamePage

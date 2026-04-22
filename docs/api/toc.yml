@@ -1,0 +1,31 @@
+- name: 🧠 Domain Layer
+  href: domain/
+  items:
+    - name: Models
+      href: domain/ProjectManagement.Domain.Models.yml
+    - name: Value Objects
+      href: domain/ProjectManagement.Domain.ValueObjects.yml
+    - name: Interfaces
+      href: domain/ProjectManagement.Domain.Interfaces.yml
+
+- name: ⚙️ Application Layer
+  href: application/
+  items:
+    - name: Commands
+      href: application/ProjectManagement.Application.Commands.yml
+    - name: Handlers
+      href: application/ProjectManagement.Application.Handlers.yml
+
+- name: 🗄️ Infrastructure Layer
+  href: infrastructure/
+  items:
+    - name: Data
+      href: infrastructure/ProjectManagement.Infrastructure.Data.yml
+    - name: Repositories
+      href: infrastructure/ProjectManagement.Infrastructure.Repositories.yml
+
+- name: 🌐 Presentation Layer
+  href: presentation/
+  items:
+    - name: Console
+      href: presentation/ProjectManagement.Presentation.Console.yml
