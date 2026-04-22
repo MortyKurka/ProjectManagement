@@ -25,7 +25,7 @@ public class CreateEmployeeHandler
 
         //if(await _employeeRepository.ExistsByWorkPass(employeeWorkPass)) return EmployeeResult.Fail("WORKPASS_ALREADY_TAKEN","Данный WorkPass уже занят другим сотрудником");
 
-        var employee = new Employee(command.EmployeeId, employeeName, employeeEmail, employeeWorkPass, employeeRole);
+        var employee = new Employee(employeeName, employeeEmail, employeeWorkPass, employeeRole);
 
         await _employeeRepository.Add(employee);
 

@@ -4,6 +4,9 @@
     <Project Path="src/ProjectManagement.Domain/ProjectManagement.Domain.csproj" />
     <Project Path="src/ProjectManagement.Infrastructure/ProjectManagement.Infrastructure.csproj" />
   </Folder>
+  <Folder Name="/src/ProjectManagement.Presentation/">
+    <Project Path="src/ProjectManagement.Presentation/ProjectManagement.Presentation.Console/ProjectManagement.Presentation.Console.csproj" />
+  </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/ProjectManagement.Domain.Tests/ProjectManagement.Domain.Tests.csproj" />
   </Folder>

@@ -13,11 +13,11 @@ public class Employee
     public EmployeeRole Role { get; private set; }
     public int ProjectId { get; private set; }
     public bool IsHired { get; private set; }
+    private int _idCounter = 0;
 
-    public Employee(int id,Name name, Email email, WorkPass workPass, EmployeeRole role)
+    public Employee(Name name, Email email, WorkPass workPass, EmployeeRole role)
     {
-        if (id<=0) throw new ArgumentException("Id не может быть отрицательным или равным нулю",nameof(id));
-        Id = id;
+        Id = ++_idCounter;
         Name = name;
         Email = email;
         WorkPass = workPass;

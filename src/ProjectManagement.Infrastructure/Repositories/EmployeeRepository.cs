@@ -18,7 +18,6 @@ public class EmployeeRepository : IEmployeeRepository
     {
         var employeeEntity = new EmployeeEntity
         {
-            Id = employee.Id,
             ProjectId = employee.ProjectId,
             Name = employee.Name.ToString(),
             WorkPass = employee.WorkPass.ToString(),
@@ -26,5 +25,6 @@ public class EmployeeRepository : IEmployeeRepository
             Role = employee.Role,
         };
         await _db.AddAsync(employeeEntity);
+        await _db.SaveChangesAsync();
     }
 }
