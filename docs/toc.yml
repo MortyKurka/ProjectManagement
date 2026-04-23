@@ -1,0 +1,9 @@
+- name: 🏠 Главная
+  href: index.md
+
+- name: 🔧 API Reference
+  href: api/
+  homepage: api/index.html
+
+- name: 💻 GitHub
+  href: https://github.com/MortyKurka/ProjectManagement

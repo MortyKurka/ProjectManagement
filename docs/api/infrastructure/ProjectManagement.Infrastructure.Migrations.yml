@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProjectManagement.Infrastructure.Migrations
+  commentId: N:ProjectManagement.Infrastructure.Migrations
+  id: Migrations
+  parent: ProjectManagement.Infrastructure
+  children:
+  - ProjectManagement.Infrastructure.Migrations.InitialCreate
+  langs:
+  - csharp
+  - vb
+  name: ProjectManagement.Infrastructure.Migrations
+  nameWithType: ProjectManagement.Infrastructure.Migrations
+  fullName: ProjectManagement.Infrastructure.Migrations
+  type: Namespace
+  assemblies:
+  - ProjectManagement.Infrastructure
+references:
+- uid: ProjectManagement.Infrastructure.Migrations.InitialCreate
+  commentId: T:ProjectManagement.Infrastructure.Migrations.InitialCreate
+  href: ProjectManagement.Infrastructure.Migrations.InitialCreate.html
+  name: InitialCreate
+  nameWithType: InitialCreate
+  fullName: ProjectManagement.Infrastructure.Migrations.InitialCreate

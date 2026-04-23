@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProjectManagement.Application.Handlers
+  commentId: N:ProjectManagement.Application.Handlers
+  id: Handlers
+  parent: ProjectManagement.Application
+  children:
+  - ProjectManagement.Application.Handlers.CreateEmployeeHandler
+  langs:
+  - csharp
+  - vb
+  name: ProjectManagement.Application.Handlers
+  nameWithType: ProjectManagement.Application.Handlers
+  fullName: ProjectManagement.Application.Handlers
+  type: Namespace
+  assemblies:
+  - ProjectManagement.Application
+references:
+- uid: ProjectManagement.Application.Handlers.CreateEmployeeHandler
+  commentId: T:ProjectManagement.Application.Handlers.CreateEmployeeHandler
+  href: ProjectManagement.Application.Handlers.CreateEmployeeHandler.html
+  name: CreateEmployeeHandler
+  nameWithType: CreateEmployeeHandler
+  fullName: ProjectManagement.Application.Handlers.CreateEmployeeHandler

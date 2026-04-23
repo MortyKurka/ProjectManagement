@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProjectManagement.Application.DTO
+  commentId: N:ProjectManagement.Application.DTO
+  id: DTO
+  parent: ProjectManagement.Application
+  children:
+  - ProjectManagement.Application.DTO.EmployeeResult
+  langs:
+  - csharp
+  - vb
+  name: ProjectManagement.Application.DTO
+  nameWithType: ProjectManagement.Application.DTO
+  fullName: ProjectManagement.Application.DTO
+  type: Namespace
+  assemblies:
+  - ProjectManagement.Application
+references:
+- uid: ProjectManagement.Application.DTO.EmployeeResult
+  commentId: T:ProjectManagement.Application.DTO.EmployeeResult
+  parent: ProjectManagement.Application.DTO
+  href: ProjectManagement.Application.DTO.EmployeeResult.html
+  name: EmployeeResult
+  nameWithType: EmployeeResult
+  fullName: ProjectManagement.Application.DTO.EmployeeResult
+- uid: ProjectManagement.Application.DTO
+  commentId: N:ProjectManagement.Application.DTO
+  href: ProjectManagement.html
+  name: ProjectManagement.Application.DTO
+  nameWithType: ProjectManagement.Application.DTO
+  fullName: ProjectManagement.Application.DTO
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Application
+    name: Application
+    href: ProjectManagement.Application.html
+  - name: .
+  - uid: ProjectManagement.Application.DTO
+    name: DTO
+    href: ProjectManagement.Application.DTO.html
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Application
+    name: Application
+    href: ProjectManagement.Application.html
+  - name: .
+  - uid: ProjectManagement.Application.DTO
+    name: DTO
+    href: ProjectManagement.Application.DTO.html

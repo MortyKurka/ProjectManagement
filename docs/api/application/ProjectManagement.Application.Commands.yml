@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProjectManagement.Application.Commands
+  commentId: N:ProjectManagement.Application.Commands
+  id: Commands
+  parent: ProjectManagement.Application
+  children:
+  - ProjectManagement.Application.Commands.CreateEmployeeCommand
+  langs:
+  - csharp
+  - vb
+  name: ProjectManagement.Application.Commands
+  nameWithType: ProjectManagement.Application.Commands
+  fullName: ProjectManagement.Application.Commands
+  type: Namespace
+  assemblies:
+  - ProjectManagement.Application
+references:
+- uid: ProjectManagement.Application.Commands.CreateEmployeeCommand
+  commentId: T:ProjectManagement.Application.Commands.CreateEmployeeCommand
+  parent: ProjectManagement.Application.Commands
+  href: ProjectManagement.Application.Commands.CreateEmployeeCommand.html
+  name: CreateEmployeeCommand
+  nameWithType: CreateEmployeeCommand
+  fullName: ProjectManagement.Application.Commands.CreateEmployeeCommand
+- uid: ProjectManagement.Application.Commands
+  commentId: N:ProjectManagement.Application.Commands
+  href: ProjectManagement.html
+  name: ProjectManagement.Application.Commands
+  nameWithType: ProjectManagement.Application.Commands
+  fullName: ProjectManagement.Application.Commands
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Application
+    name: Application
+    href: ProjectManagement.Application.html
+  - name: .
+  - uid: ProjectManagement.Application.Commands
+    name: Commands
+    href: ProjectManagement.Application.Commands.html
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Application
+    name: Application
+    href: ProjectManagement.Application.html
+  - name: .
+  - uid: ProjectManagement.Application.Commands
+    name: Commands
+    href: ProjectManagement.Application.Commands.html

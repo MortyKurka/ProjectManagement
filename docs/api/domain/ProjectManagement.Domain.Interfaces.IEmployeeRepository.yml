@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProjectManagement.Domain.Interfaces.IEmployeeRepository
+  commentId: T:ProjectManagement.Domain.Interfaces.IEmployeeRepository
+  id: IEmployeeRepository
+  parent: ProjectManagement.Domain.Interfaces
+  children:
+  - ProjectManagement.Domain.Interfaces.IEmployeeRepository.Add(ProjectManagement.Domain.Models.Employee)
+  langs:
+  - csharp
+  - vb
+  name: IEmployeeRepository
+  nameWithType: IEmployeeRepository
+  fullName: ProjectManagement.Domain.Interfaces.IEmployeeRepository
+  type: Interface
+  source:
+    remote:
+      path: src/ProjectManagement.Domain/Interfaces/IEmployeeRepository.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: IEmployeeRepository
+    path: ../src/ProjectManagement.Domain/Interfaces/IEmployeeRepository.cs
+    startLine: 11
+  assemblies:
+  - ProjectManagement.Domain
+  namespace: ProjectManagement.Domain.Interfaces
+  summary: Определяет контракт для репозитория работы с сотрудниками.
+  remarks: >-
+    Репозиторий предоставляет методы для доступа к данным сотрудника,
+
+    скрывая детали реализации (EF Core)
+  example: []
+  syntax:
+    content: public interface IEmployeeRepository
+    content.vb: Public Interface IEmployeeRepository
+- uid: ProjectManagement.Domain.Interfaces.IEmployeeRepository.Add(ProjectManagement.Domain.Models.Employee)
+  commentId: M:ProjectManagement.Domain.Interfaces.IEmployeeRepository.Add(ProjectManagement.Domain.Models.Employee)
+  id: Add(ProjectManagement.Domain.Models.Employee)
+  parent: ProjectManagement.Domain.Interfaces.IEmployeeRepository
+  langs:
+  - csharp
+  - vb
+  name: Add(Employee)
+  nameWithType: IEmployeeRepository.Add(Employee)
+  fullName: ProjectManagement.Domain.Interfaces.IEmployeeRepository.Add(ProjectManagement.Domain.Models.Employee)
+  type: Method
+  source:
+    remote:
+      path: src/ProjectManagement.Domain/Interfaces/IEmployeeRepository.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: Add
+    path: ../src/ProjectManagement.Domain/Interfaces/IEmployeeRepository.cs
+    startLine: 18
+  assemblies:
+  - ProjectManagement.Domain
+  namespace: ProjectManagement.Domain.Interfaces
+  summary: Добавляет нового сотрудника в репозиторий.
+  example: []
+  syntax:
+    content: Task Add(Employee employee)
+    parameters:
+    - id: employee
+      type: ProjectManagement.Domain.Models.Employee
+      description: Добавляемый сотрудник.
+    return:
+      type: System.Threading.Tasks.Task
+      description: Задача, представляющая асинхронную операцию.
+    content.vb: Function Add(employee As Employee) As Task
+  overload: ProjectManagement.Domain.Interfaces.IEmployeeRepository.Add*
+references:
+- uid: ProjectManagement.Domain.Interfaces
+  commentId: N:ProjectManagement.Domain.Interfaces
+  href: ProjectManagement.html
+  name: ProjectManagement.Domain.Interfaces
+  nameWithType: ProjectManagement.Domain.Interfaces
+  fullName: ProjectManagement.Domain.Interfaces
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Domain
+    name: Domain
+    href: ProjectManagement.Domain.html
+  - name: .
+  - uid: ProjectManagement.Domain.Interfaces
+    name: Interfaces
+    href: ProjectManagement.Domain.Interfaces.html
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Domain
+    name: Domain
+    href: ProjectManagement.Domain.html
+  - name: .
+  - uid: ProjectManagement.Domain.Interfaces
+    name: Interfaces
+    href: ProjectManagement.Domain.Interfaces.html
+- uid: ProjectManagement.Domain.Interfaces.IEmployeeRepository.Add*
+  commentId: Overload:ProjectManagement.Domain.Interfaces.IEmployeeRepository.Add
+  href: ProjectManagement.Domain.Interfaces.IEmployeeRepository.html#ProjectManagement_Domain_Interfaces_IEmployeeRepository_Add_ProjectManagement_Domain_Models_Employee_
+  name: Add
+  nameWithType: IEmployeeRepository.Add
+  fullName: ProjectManagement.Domain.Interfaces.IEmployeeRepository.Add
+- uid: ProjectManagement.Domain.Models.Employee
+  commentId: T:ProjectManagement.Domain.Models.Employee
+  parent: ProjectManagement.Domain.Models
+  href: ProjectManagement.Domain.Models.Employee.html
+  name: Employee
+  nameWithType: Employee
+  fullName: ProjectManagement.Domain.Models.Employee
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: ProjectManagement.Domain.Models
+  commentId: N:ProjectManagement.Domain.Models
+  href: ProjectManagement.html
+  name: ProjectManagement.Domain.Models
+  nameWithType: ProjectManagement.Domain.Models
+  fullName: ProjectManagement.Domain.Models
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Domain
+    name: Domain
+    href: ProjectManagement.Domain.html
+  - name: .
+  - uid: ProjectManagement.Domain.Models
+    name: Models
+    href: ProjectManagement.Domain.Models.html
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Domain
+    name: Domain
+    href: ProjectManagement.Domain.html
+  - name: .
+  - uid: ProjectManagement.Domain.Models
+    name: Models
+    href: ProjectManagement.Domain.Models.html
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

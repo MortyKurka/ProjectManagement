@@ -1,0 +1,7 @@
+{
+  "ProjectManagement.Presentation.Console": "ProjectManagement.Presentation.Console.yml",
+  "ProjectManagement.Presentation.Console.App": "ProjectManagement.Presentation.Console.App.yml",
+  "ProjectManagement.Presentation.Console.App.#ctor(ProjectManagement.Application.Handlers.CreateEmployeeHandler)": "ProjectManagement.Presentation.Console.App.yml",
+  "ProjectManagement.Presentation.Console.App.AddEmployee": "ProjectManagement.Presentation.Console.App.yml",
+  "ProjectManagement.Presentation.Console.App.RunAsync": "ProjectManagement.Presentation.Console.App.yml"
+}

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using ProjectManagement.Application.Handlers;
 using ProjectManagement.Domain.Interfaces;
 using ProjectManagement.Infrastructure.Data;
-using ProjectManagement.Infrastructure.Repository;
+using ProjectManagement.Infrastructure.Repositories;
 
 namespace ProjectManagement.Presentation.Console;
 

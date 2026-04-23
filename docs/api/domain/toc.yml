@@ -1,0 +1,54 @@
+### YamlMime:TableOfContent
+items:
+- uid: ProjectManagement.Domain
+  name: ProjectManagement.Domain
+  type: Namespace
+  items:
+  - uid: ProjectManagement.Domain.Enums
+    name: Enums
+    type: Namespace
+    items:
+    - uid: ProjectManagement.Domain.Enums.EmployeeRole
+      name: EmployeeRole
+      type: Enum
+  - uid: ProjectManagement.Domain.Exceptions
+    name: Exceptions
+    type: Namespace
+    items:
+    - uid: ProjectManagement.Domain.Exceptions.BusinessRuleViolationException
+      name: BusinessRuleViolationException
+      type: Class
+    - uid: ProjectManagement.Domain.Exceptions.DomainException
+      name: DomainException
+      type: Class
+    - uid: ProjectManagement.Domain.Exceptions.InvalidEntityStateException
+      name: InvalidEntityStateException
+      type: Class
+  - uid: ProjectManagement.Domain.Interfaces
+    name: Interfaces
+    type: Namespace
+    items:
+    - uid: ProjectManagement.Domain.Interfaces.IEmployeeRepository
+      name: IEmployeeRepository
+      type: Interface
+  - uid: ProjectManagement.Domain.Models
+    name: Models
+    type: Namespace
+    items:
+    - uid: ProjectManagement.Domain.Models.Employee
+      name: Employee
+      type: Class
+  - uid: ProjectManagement.Domain.ValueObjects
+    name: ValueObjects
+    type: Namespace
+    items:
+    - uid: ProjectManagement.Domain.ValueObjects.Email
+      name: Email
+      type: Class
+    - uid: ProjectManagement.Domain.ValueObjects.Name
+      name: Name
+      type: Class
+    - uid: ProjectManagement.Domain.ValueObjects.WorkPass
+      name: WorkPass
+      type: Class
+memberLayout: SamePage

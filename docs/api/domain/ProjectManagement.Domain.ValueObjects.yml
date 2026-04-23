@@ -1,0 +1,71 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProjectManagement.Domain.ValueObjects
+  commentId: N:ProjectManagement.Domain.ValueObjects
+  id: ValueObjects
+  parent: ProjectManagement.Domain
+  children:
+  - ProjectManagement.Domain.ValueObjects.Email
+  - ProjectManagement.Domain.ValueObjects.Name
+  - ProjectManagement.Domain.ValueObjects.WorkPass
+  langs:
+  - csharp
+  - vb
+  name: ProjectManagement.Domain.ValueObjects
+  nameWithType: ProjectManagement.Domain.ValueObjects
+  fullName: ProjectManagement.Domain.ValueObjects
+  type: Namespace
+  assemblies:
+  - ProjectManagement.Domain
+references:
+- uid: ProjectManagement.Domain.ValueObjects.Email
+  commentId: T:ProjectManagement.Domain.ValueObjects.Email
+  parent: ProjectManagement.Domain.ValueObjects
+  href: ProjectManagement.Domain.ValueObjects.Email.html
+  name: Email
+  nameWithType: Email
+  fullName: ProjectManagement.Domain.ValueObjects.Email
+- uid: ProjectManagement.Domain.ValueObjects.Name
+  commentId: T:ProjectManagement.Domain.ValueObjects.Name
+  parent: ProjectManagement.Domain.ValueObjects
+  href: ProjectManagement.Domain.ValueObjects.Name.html
+  name: Name
+  nameWithType: Name
+  fullName: ProjectManagement.Domain.ValueObjects.Name
+- uid: ProjectManagement.Domain.ValueObjects.WorkPass
+  commentId: T:ProjectManagement.Domain.ValueObjects.WorkPass
+  parent: ProjectManagement.Domain.ValueObjects
+  href: ProjectManagement.Domain.ValueObjects.WorkPass.html
+  name: WorkPass
+  nameWithType: WorkPass
+  fullName: ProjectManagement.Domain.ValueObjects.WorkPass
+- uid: ProjectManagement.Domain.ValueObjects
+  commentId: N:ProjectManagement.Domain.ValueObjects
+  href: ProjectManagement.html
+  name: ProjectManagement.Domain.ValueObjects
+  nameWithType: ProjectManagement.Domain.ValueObjects
+  fullName: ProjectManagement.Domain.ValueObjects
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Domain
+    name: Domain
+    href: ProjectManagement.Domain.html
+  - name: .
+  - uid: ProjectManagement.Domain.ValueObjects
+    name: ValueObjects
+    href: ProjectManagement.Domain.ValueObjects.html
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Domain
+    name: Domain
+    href: ProjectManagement.Domain.html
+  - name: .
+  - uid: ProjectManagement.Domain.ValueObjects
+    name: ValueObjects
+    href: ProjectManagement.Domain.ValueObjects.html

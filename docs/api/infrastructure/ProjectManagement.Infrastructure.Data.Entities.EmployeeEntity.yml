@@ -1,0 +1,581 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity
+  commentId: T:ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity
+  id: EmployeeEntity
+  parent: ProjectManagement.Infrastructure.Data.Entities
+  children:
+  - ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Email
+  - ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Id
+  - ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Name
+  - ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.ProjectId
+  - ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Role
+  - ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.WorkPass
+  langs:
+  - csharp
+  - vb
+  name: EmployeeEntity
+  nameWithType: EmployeeEntity
+  fullName: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity
+  type: Class
+  source:
+    remote:
+      path: src/ProjectManagement.Infrastructure/Data/Entities/EmployeeEntity.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: EmployeeEntity
+    path: ../src/ProjectManagement.Infrastructure/Data/Entities/EmployeeEntity.cs
+    startLine: 5
+  assemblies:
+  - ProjectManagement.Infrastructure
+  namespace: ProjectManagement.Infrastructure.Data.Entities
+  syntax:
+    content: public class EmployeeEntity
+    content.vb: Public Class EmployeeEntity
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Id
+  commentId: P:ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Id
+  id: Id
+  parent: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: EmployeeEntity.Id
+  fullName: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Id
+  type: Property
+  source:
+    remote:
+      path: src/ProjectManagement.Infrastructure/Data/Entities/EmployeeEntity.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: Id
+    path: ../src/ProjectManagement.Infrastructure/Data/Entities/EmployeeEntity.cs
+    startLine: 8
+  assemblies:
+  - ProjectManagement.Infrastructure
+  namespace: ProjectManagement.Infrastructure.Data.Entities
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Id*
+- uid: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.ProjectId
+  commentId: P:ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.ProjectId
+  id: ProjectId
+  parent: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: EmployeeEntity.ProjectId
+  fullName: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.ProjectId
+  type: Property
+  source:
+    remote:
+      path: src/ProjectManagement.Infrastructure/Data/Entities/EmployeeEntity.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: ProjectId
+    path: ../src/ProjectManagement.Infrastructure/Data/Entities/EmployeeEntity.cs
+    startLine: 10
+  assemblies:
+  - ProjectManagement.Infrastructure
+  namespace: ProjectManagement.Infrastructure.Data.Entities
+  syntax:
+    content: public int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProjectId As Integer
+  overload: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.ProjectId*
+- uid: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Name
+  commentId: P:ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Name
+  id: Name
+  parent: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: EmployeeEntity.Name
+  fullName: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Name
+  type: Property
+  source:
+    remote:
+      path: src/ProjectManagement.Infrastructure/Data/Entities/EmployeeEntity.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: Name
+    path: ../src/ProjectManagement.Infrastructure/Data/Entities/EmployeeEntity.cs
+    startLine: 15
+  assemblies:
+  - ProjectManagement.Infrastructure
+  namespace: ProjectManagement.Infrastructure.Data.Entities
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Name*
+- uid: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.WorkPass
+  commentId: P:ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.WorkPass
+  id: WorkPass
+  parent: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity
+  langs:
+  - csharp
+  - vb
+  name: WorkPass
+  nameWithType: EmployeeEntity.WorkPass
+  fullName: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.WorkPass
+  type: Property
+  source:
+    remote:
+      path: src/ProjectManagement.Infrastructure/Data/Entities/EmployeeEntity.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: WorkPass
+    path: ../src/ProjectManagement.Infrastructure/Data/Entities/EmployeeEntity.cs
+    startLine: 16
+  assemblies:
+  - ProjectManagement.Infrastructure
+  namespace: ProjectManagement.Infrastructure.Data.Entities
+  syntax:
+    content: public string WorkPass { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property WorkPass As String
+  overload: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.WorkPass*
+- uid: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Role
+  commentId: P:ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Role
+  id: Role
+  parent: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity
+  langs:
+  - csharp
+  - vb
+  name: Role
+  nameWithType: EmployeeEntity.Role
+  fullName: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Role
+  type: Property
+  source:
+    remote:
+      path: src/ProjectManagement.Infrastructure/Data/Entities/EmployeeEntity.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: Role
+    path: ../src/ProjectManagement.Infrastructure/Data/Entities/EmployeeEntity.cs
+    startLine: 17
+  assemblies:
+  - ProjectManagement.Infrastructure
+  namespace: ProjectManagement.Infrastructure.Data.Entities
+  syntax:
+    content: public EmployeeRole Role { get; set; }
+    parameters: []
+    return:
+      type: ProjectManagement.Domain.Enums.EmployeeRole
+    content.vb: Public Property Role As EmployeeRole
+  overload: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Role*
+- uid: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Email
+  commentId: P:ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Email
+  id: Email
+  parent: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: EmployeeEntity.Email
+  fullName: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Email
+  type: Property
+  source:
+    remote:
+      path: src/ProjectManagement.Infrastructure/Data/Entities/EmployeeEntity.cs
+      branch: main
+      repo: https://github.com/MortyKurka/ProjectManagement.git
+    id: Email
+    path: ../src/ProjectManagement.Infrastructure/Data/Entities/EmployeeEntity.cs
+    startLine: 18
+  assemblies:
+  - ProjectManagement.Infrastructure
+  namespace: ProjectManagement.Infrastructure.Data.Entities
+  syntax:
+    content: public string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Email As String
+  overload: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Email*
+references:
+- uid: ProjectManagement.Infrastructure.Data.Entities
+  commentId: N:ProjectManagement.Infrastructure.Data.Entities
+  href: ProjectManagement.html
+  name: ProjectManagement.Infrastructure.Data.Entities
+  nameWithType: ProjectManagement.Infrastructure.Data.Entities
+  fullName: ProjectManagement.Infrastructure.Data.Entities
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure
+    name: Infrastructure
+    href: ProjectManagement.Infrastructure.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure.Data
+    name: Data
+    href: ProjectManagement.Infrastructure.Data.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure.Data.Entities
+    name: Entities
+    href: ProjectManagement.Infrastructure.Data.Entities.html
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure
+    name: Infrastructure
+    href: ProjectManagement.Infrastructure.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure.Data
+    name: Data
+    href: ProjectManagement.Infrastructure.Data.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure.Data.Entities
+    name: Entities
+    href: ProjectManagement.Infrastructure.Data.Entities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Id*
+  commentId: Overload:ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Id
+  href: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.html#ProjectManagement_Infrastructure_Data_Entities_EmployeeEntity_Id
+  name: Id
+  nameWithType: EmployeeEntity.Id
+  fullName: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.ProjectId*
+  commentId: Overload:ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.ProjectId
+  href: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.html#ProjectManagement_Infrastructure_Data_Entities_EmployeeEntity_ProjectId
+  name: ProjectId
+  nameWithType: EmployeeEntity.ProjectId
+  fullName: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.ProjectId
+- uid: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Name*
+  commentId: Overload:ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Name
+  href: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.html#ProjectManagement_Infrastructure_Data_Entities_EmployeeEntity_Name
+  name: Name
+  nameWithType: EmployeeEntity.Name
+  fullName: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.WorkPass*
+  commentId: Overload:ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.WorkPass
+  href: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.html#ProjectManagement_Infrastructure_Data_Entities_EmployeeEntity_WorkPass
+  name: WorkPass
+  nameWithType: EmployeeEntity.WorkPass
+  fullName: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.WorkPass
+- uid: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Role*
+  commentId: Overload:ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Role
+  href: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.html#ProjectManagement_Infrastructure_Data_Entities_EmployeeEntity_Role
+  name: Role
+  nameWithType: EmployeeEntity.Role
+  fullName: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Role
+- uid: ProjectManagement.Domain.Enums.EmployeeRole
+  commentId: T:ProjectManagement.Domain.Enums.EmployeeRole
+  parent: ProjectManagement.Domain.Enums
+  name: EmployeeRole
+  nameWithType: EmployeeRole
+  fullName: ProjectManagement.Domain.Enums.EmployeeRole
+- uid: ProjectManagement.Domain.Enums
+  commentId: N:ProjectManagement.Domain.Enums
+  name: ProjectManagement.Domain.Enums
+  nameWithType: ProjectManagement.Domain.Enums
+  fullName: ProjectManagement.Domain.Enums
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+  - name: .
+  - uid: ProjectManagement.Domain
+    name: Domain
+  - name: .
+  - uid: ProjectManagement.Domain.Enums
+    name: Enums
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+  - name: .
+  - uid: ProjectManagement.Domain
+    name: Domain
+  - name: .
+  - uid: ProjectManagement.Domain.Enums
+    name: Enums
+- uid: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Email*
+  commentId: Overload:ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Email
+  href: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.html#ProjectManagement_Infrastructure_Data_Entities_EmployeeEntity_Email
+  name: Email
+  nameWithType: EmployeeEntity.Email
+  fullName: ProjectManagement.Infrastructure.Data.Entities.EmployeeEntity.Email

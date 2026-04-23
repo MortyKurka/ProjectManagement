@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProjectManagement.Infrastructure.Data
+  commentId: N:ProjectManagement.Infrastructure.Data
+  id: Data
+  parent: ProjectManagement.Infrastructure
+  children:
+  - ProjectManagement.Infrastructure.Data.Configurations
+  - ProjectManagement.Infrastructure.Data.Entities
+  - ProjectManagement.Infrastructure.Data.ProjectManagementContext
+  langs:
+  - csharp
+  - vb
+  name: ProjectManagement.Infrastructure.Data
+  nameWithType: ProjectManagement.Infrastructure.Data
+  fullName: ProjectManagement.Infrastructure.Data
+  type: Namespace
+  assemblies:
+  - ProjectManagement.Infrastructure
+references:
+- uid: ProjectManagement.Infrastructure.Data.Configurations
+  commentId: N:ProjectManagement.Infrastructure.Data.Configurations
+  href: ProjectManagement.html
+  name: ProjectManagement.Infrastructure.Data.Configurations
+  nameWithType: ProjectManagement.Infrastructure.Data.Configurations
+  fullName: ProjectManagement.Infrastructure.Data.Configurations
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure
+    name: Infrastructure
+    href: ProjectManagement.Infrastructure.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure.Data
+    name: Data
+    href: ProjectManagement.Infrastructure.Data.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure.Data.Configurations
+    name: Configurations
+    href: ProjectManagement.Infrastructure.Data.Configurations.html
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure
+    name: Infrastructure
+    href: ProjectManagement.Infrastructure.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure.Data
+    name: Data
+    href: ProjectManagement.Infrastructure.Data.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure.Data.Configurations
+    name: Configurations
+    href: ProjectManagement.Infrastructure.Data.Configurations.html
+- uid: ProjectManagement.Infrastructure.Data.Entities
+  commentId: N:ProjectManagement.Infrastructure.Data.Entities
+  href: ProjectManagement.html
+  name: ProjectManagement.Infrastructure.Data.Entities
+  nameWithType: ProjectManagement.Infrastructure.Data.Entities
+  fullName: ProjectManagement.Infrastructure.Data.Entities
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure
+    name: Infrastructure
+    href: ProjectManagement.Infrastructure.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure.Data
+    name: Data
+    href: ProjectManagement.Infrastructure.Data.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure.Data.Entities
+    name: Entities
+    href: ProjectManagement.Infrastructure.Data.Entities.html
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure
+    name: Infrastructure
+    href: ProjectManagement.Infrastructure.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure.Data
+    name: Data
+    href: ProjectManagement.Infrastructure.Data.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure.Data.Entities
+    name: Entities
+    href: ProjectManagement.Infrastructure.Data.Entities.html
+- uid: ProjectManagement.Infrastructure.Data.ProjectManagementContext
+  commentId: T:ProjectManagement.Infrastructure.Data.ProjectManagementContext
+  parent: ProjectManagement.Infrastructure.Data
+  href: ProjectManagement.Infrastructure.Data.ProjectManagementContext.html
+  name: ProjectManagementContext
+  nameWithType: ProjectManagementContext
+  fullName: ProjectManagement.Infrastructure.Data.ProjectManagementContext
+- uid: ProjectManagement.Infrastructure.Data
+  commentId: N:ProjectManagement.Infrastructure.Data
+  href: ProjectManagement.html
+  name: ProjectManagement.Infrastructure.Data
+  nameWithType: ProjectManagement.Infrastructure.Data
+  fullName: ProjectManagement.Infrastructure.Data
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure
+    name: Infrastructure
+    href: ProjectManagement.Infrastructure.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure.Data
+    name: Data
+    href: ProjectManagement.Infrastructure.Data.html
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure
+    name: Infrastructure
+    href: ProjectManagement.Infrastructure.html
+  - name: .
+  - uid: ProjectManagement.Infrastructure.Data
+    name: Data
+    href: ProjectManagement.Infrastructure.Data.html

@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProjectManagement.Domain.Exceptions
+  commentId: N:ProjectManagement.Domain.Exceptions
+  id: Exceptions
+  parent: ProjectManagement.Domain
+  children:
+  - ProjectManagement.Domain.Exceptions.BusinessRuleViolationException
+  - ProjectManagement.Domain.Exceptions.DomainException
+  - ProjectManagement.Domain.Exceptions.InvalidEntityStateException
+  langs:
+  - csharp
+  - vb
+  name: ProjectManagement.Domain.Exceptions
+  nameWithType: ProjectManagement.Domain.Exceptions
+  fullName: ProjectManagement.Domain.Exceptions
+  type: Namespace
+  assemblies:
+  - ProjectManagement.Domain
+references:
+- uid: ProjectManagement.Domain.Exceptions.BusinessRuleViolationException
+  commentId: T:ProjectManagement.Domain.Exceptions.BusinessRuleViolationException
+  href: ProjectManagement.Domain.Exceptions.BusinessRuleViolationException.html
+  name: BusinessRuleViolationException
+  nameWithType: BusinessRuleViolationException
+  fullName: ProjectManagement.Domain.Exceptions.BusinessRuleViolationException
+- uid: ProjectManagement.Domain.Exceptions.DomainException
+  commentId: T:ProjectManagement.Domain.Exceptions.DomainException
+  parent: ProjectManagement.Domain.Exceptions
+  href: ProjectManagement.Domain.Exceptions.DomainException.html
+  name: DomainException
+  nameWithType: DomainException
+  fullName: ProjectManagement.Domain.Exceptions.DomainException
+- uid: ProjectManagement.Domain.Exceptions.InvalidEntityStateException
+  commentId: T:ProjectManagement.Domain.Exceptions.InvalidEntityStateException
+  href: ProjectManagement.Domain.Exceptions.InvalidEntityStateException.html
+  name: InvalidEntityStateException
+  nameWithType: InvalidEntityStateException
+  fullName: ProjectManagement.Domain.Exceptions.InvalidEntityStateException
+- uid: ProjectManagement.Domain.Exceptions
+  commentId: N:ProjectManagement.Domain.Exceptions
+  href: ProjectManagement.html
+  name: ProjectManagement.Domain.Exceptions
+  nameWithType: ProjectManagement.Domain.Exceptions
+  fullName: ProjectManagement.Domain.Exceptions
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Domain
+    name: Domain
+    href: ProjectManagement.Domain.html
+  - name: .
+  - uid: ProjectManagement.Domain.Exceptions
+    name: Exceptions
+    href: ProjectManagement.Domain.Exceptions.html
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Domain
+    name: Domain
+    href: ProjectManagement.Domain.html
+  - name: .
+  - uid: ProjectManagement.Domain.Exceptions
+    name: Exceptions
+    href: ProjectManagement.Domain.Exceptions.html

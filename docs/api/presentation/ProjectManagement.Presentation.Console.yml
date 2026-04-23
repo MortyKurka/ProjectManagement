@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProjectManagement.Presentation.Console
+  commentId: N:ProjectManagement.Presentation.Console
+  id: ProjectManagement.Presentation.Console
+  children:
+  - ProjectManagement.Presentation.Console.App
+  langs:
+  - csharp
+  - vb
+  name: ProjectManagement.Presentation.Console
+  nameWithType: ProjectManagement.Presentation.Console
+  fullName: ProjectManagement.Presentation.Console
+  type: Namespace
+  assemblies:
+  - ProjectManagement.Presentation.Console
+references:
+- uid: ProjectManagement.Presentation.Console.App
+  commentId: T:ProjectManagement.Presentation.Console.App
+  href: ProjectManagement.Presentation.Console.App.html
+  name: App
+  nameWithType: App
+  fullName: ProjectManagement.Presentation.Console.App

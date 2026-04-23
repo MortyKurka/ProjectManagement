@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProjectManagement.Domain.Enums
+  commentId: N:ProjectManagement.Domain.Enums
+  id: Enums
+  parent: ProjectManagement.Domain
+  children:
+  - ProjectManagement.Domain.Enums.EmployeeRole
+  langs:
+  - csharp
+  - vb
+  name: ProjectManagement.Domain.Enums
+  nameWithType: ProjectManagement.Domain.Enums
+  fullName: ProjectManagement.Domain.Enums
+  type: Namespace
+  assemblies:
+  - ProjectManagement.Domain
+references:
+- uid: ProjectManagement.Domain.Enums.EmployeeRole
+  commentId: T:ProjectManagement.Domain.Enums.EmployeeRole
+  parent: ProjectManagement.Domain.Enums
+  href: ProjectManagement.Domain.Enums.EmployeeRole.html
+  name: EmployeeRole
+  nameWithType: EmployeeRole
+  fullName: ProjectManagement.Domain.Enums.EmployeeRole
+- uid: ProjectManagement.Domain.Enums
+  commentId: N:ProjectManagement.Domain.Enums
+  href: ProjectManagement.html
+  name: ProjectManagement.Domain.Enums
+  nameWithType: ProjectManagement.Domain.Enums
+  fullName: ProjectManagement.Domain.Enums
+  spec.csharp:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Domain
+    name: Domain
+    href: ProjectManagement.Domain.html
+  - name: .
+  - uid: ProjectManagement.Domain.Enums
+    name: Enums
+    href: ProjectManagement.Domain.Enums.html
+  spec.vb:
+  - uid: ProjectManagement
+    name: ProjectManagement
+    href: ProjectManagement.html
+  - name: .
+  - uid: ProjectManagement.Domain
+    name: Domain
+    href: ProjectManagement.Domain.html
+  - name: .
+  - uid: ProjectManagement.Domain.Enums
+    name: Enums
+    href: ProjectManagement.Domain.Enums.html

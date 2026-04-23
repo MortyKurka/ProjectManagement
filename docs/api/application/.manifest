@@ -1,0 +1,21 @@
+{
+  "ProjectManagement.Application": "ProjectManagement.Application.yml",
+  "ProjectManagement.Application.Commands": "ProjectManagement.Application.Commands.yml",
+  "ProjectManagement.Application.Commands.CreateEmployeeCommand": "ProjectManagement.Application.Commands.CreateEmployeeCommand.yml",
+  "ProjectManagement.Application.Commands.CreateEmployeeCommand.EmployeeEmail": "ProjectManagement.Application.Commands.CreateEmployeeCommand.yml",
+  "ProjectManagement.Application.Commands.CreateEmployeeCommand.EmployeeName": "ProjectManagement.Application.Commands.CreateEmployeeCommand.yml",
+  "ProjectManagement.Application.Commands.CreateEmployeeCommand.EmployeeRole": "ProjectManagement.Application.Commands.CreateEmployeeCommand.yml",
+  "ProjectManagement.Application.Commands.CreateEmployeeCommand.EmployeeWorkPass": "ProjectManagement.Application.Commands.CreateEmployeeCommand.yml",
+  "ProjectManagement.Application.DTO": "ProjectManagement.Application.DTO.yml",
+  "ProjectManagement.Application.DTO.EmployeeResult": "ProjectManagement.Application.DTO.EmployeeResult.yml",
+  "ProjectManagement.Application.DTO.EmployeeResult.EmployeeId": "ProjectManagement.Application.DTO.EmployeeResult.yml",
+  "ProjectManagement.Application.DTO.EmployeeResult.ErrorCode": "ProjectManagement.Application.DTO.EmployeeResult.yml",
+  "ProjectManagement.Application.DTO.EmployeeResult.ErrorMessage": "ProjectManagement.Application.DTO.EmployeeResult.yml",
+  "ProjectManagement.Application.DTO.EmployeeResult.Fail(System.String,System.String)": "ProjectManagement.Application.DTO.EmployeeResult.yml",
+  "ProjectManagement.Application.DTO.EmployeeResult.IsSuccess": "ProjectManagement.Application.DTO.EmployeeResult.yml",
+  "ProjectManagement.Application.DTO.EmployeeResult.Success(System.Int32)": "ProjectManagement.Application.DTO.EmployeeResult.yml",
+  "ProjectManagement.Application.Handlers": "ProjectManagement.Application.Handlers.yml",
+  "ProjectManagement.Application.Handlers.CreateEmployeeHandler": "ProjectManagement.Application.Handlers.CreateEmployeeHandler.yml",
+  "ProjectManagement.Application.Handlers.CreateEmployeeHandler.#ctor(ProjectManagement.Domain.Interfaces.IEmployeeRepository)": "ProjectManagement.Application.Handlers.CreateEmployeeHandler.yml",
+  "ProjectManagement.Application.Handlers.CreateEmployeeHandler.Handle(ProjectManagement.Application.Commands.CreateEmployeeCommand)": "ProjectManagement.Application.Handlers.CreateEmployeeHandler.yml"
+}
